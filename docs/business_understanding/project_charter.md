@@ -4,7 +4,7 @@
 
 [Nombre del proyecto aquí]
 
-## Objetivo del Proyecto
+## Objetivo del Proyecto a construir
 
 [Descripción breve del objetivo del proyecto y por qué es importante]
 

@@ -8,7 +8,7 @@
 
 [Descripción breve del objetivo del proyecto y por qué es importante]
 
-## Alcance del Proyecto
+## Alcance del Proyecto a construir
 
 ### Incluye:
 

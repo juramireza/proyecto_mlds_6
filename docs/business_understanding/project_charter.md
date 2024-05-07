@@ -2,26 +2,29 @@
 
 ## Nombre del Proyecto
 
-"Aplicación de Modelos de Deep-Learning para la Predicción Temprana de la Infección por VIH”
+"Modelo de predictivo para la detección del SIDA (VIH) con base en información clínica y sociodemográfica”
 
 ## Objetivo del Proyecto a construir
 
-Desarrollar y evaluar modelos de Deep learning para predecir la infección por el virus del SIDA (VIH) utilizando datos clínicos, con el fin de facilitar la detección temprana y mejorar la gestión del tratamiento.
+Desarrollo y Evaluación de Modelos de Aprendizaje Automático para la Detección del Virus de la Inmunodeficiencia Humana (VIH) mediante Datos Clínicos: Mejorando la Detección Temprana y la Gestión del Tratamiento.
 
 ### Objetivos específicos
 
-1.Realizar un análisis exploratorio de los datos clínicos relacionados con el VIH disponibles en Kaggle.
+1.Realizar una selección adecuada de las variables con base en un análisis exploratorio de la base de datos clínicos. 
 
-2.Implementar MLflow para el seguimiento de experimentos, gestión de modelos y almacenamiento de artefactos, integrando también DVC para el control de versiones de datos y modelos.
+2.Implementar tanto estrategias de control de versiones de código como de datos.
 
-3.Desarrollar modelos de machine learning convencionales y modelos de redes neuronales profundas para comparar su efectividad en la predicción de la infección por VIH.
+3.Construir modelos de machine lerning para la detección de VIH aplicando distintos algoritmos de la ciencia de datos y/o la inteligencia artificial. 
 
-4.Optimizar los hiperparámetros de los modelos de redes neuronales utilizando Keras Tuner.
+4.Utilizar MLflow para el seguimiento de experimentos, gestión de modelos y almacenamiento de artefactos.
 
-5.Entregar el mejor modelo en producción para uso clínico usando MLflow.
+5.Construcción de una API para acceder y consumir el modelo de detección del VIH construído. 
 
 
 ## Alcance del Proyecto a construir
+
+El proyecto se desarrolla en un período de 5 semanas, utilizando una base de datos clínicos y se centra en la construcción y despliegue de una herramienta, que permita la detección del virus del SIDA (VIH) con base en variables clínicas y sociodemográficas.  
+
 
 ### Incluye:
 

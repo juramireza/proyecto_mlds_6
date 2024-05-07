@@ -2,7 +2,7 @@
 
 ## Nombre del Proyecto
 
-[Nombre del proyecto aquí]
+"Aplicación de Modelos de Deep-Learning para la Predicción Temprana de la Infección por VIH”
 
 ## Objetivo del Proyecto a construir
 

@@ -43,21 +43,30 @@ Al finalizar el proyecto, se desea un modelo que consiga predecir si un paciente
 </p>
 
 ## Metodología
+<p align="justify">
 El proyecto se realiza bajo el esquema de la metodología CRISP-DM, que consta de las siguientes fases: 
-
+</p>
+<p align="justify">
 1. Comprensión del Negocio: En esta fase, se busca comprender los objetivos del negocio y cómo se relacionan con el proyecto de minería de datos.
-
+</p>
+<p align="justify">
 2. Comprensión de los Datos: Aquí se recolectan los datos relevantes para el proyecto y se exploran para entender su estructura, calidad y contenido. 
-
+</p>
+<p align="justify">
 3. Preparación de los Datos: En esta fase, se limpian, transforman y preparan los datos para su uso en el modelado. 
-
+</p>
+<p align="justify">
 4. Modelado: En este paso se seleccionan y aplican técnicas de modelado para construir modelos predictivos.
-
+</p>
+<p align="justify">
 5. Evaluación: Aquí se evalúan los modelos construidos en términos de su precisión y relevancia para los objetivos del negocio.
-
+</p>
+<p align="justify">
 6. Despliegue: Finalmente, se implementa el modelo en el entorno operativo del negocio. 
-
+</p>
+<p align="justify">
 Estas fases no son necesariamente lineales y pueden requerir iteraciones a lo largo del proyecto. La metodología CRISP-DM proporciona un marco flexible y estructurado para guiar proyectos de minería de datos desde el inicio hasta la implementación exitosa.
+</p>
 
 ![El proyecto se realiza bajo el esquema de la metodología CRISP-DM](https://upload.wikimedia.org/wikipedia/commons/b/b9/CRISP-DM_Process_Diagram.png)
 

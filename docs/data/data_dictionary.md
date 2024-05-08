@@ -1,6 +1,6 @@
 # Diccionario de datos
 
-## Base de datos con información clínica y sociodemográfica de pacientes con VIH y sin VIH
+## Base de datos con información tanto clínica como sociodemográfica de pacientes con VIH y sin VIH
 
 <p align="justify">
 Para la elaboración del modelo, se emplea la base de datos de Kaggle, que se encuentra en el siguiente enlace: https://www.kaggle.com/datasets/aadarshvelu/aids-virus-infection-prediction/data. El conjunto, de datos contiene información tanto clínica como sociodemográfica de pacientes, donde algunos padecen de VIH y otros no. Por ende, cuenta con los insumos suficientes para la construcción de un modelo de clasificación, que permita predecir si un paciente tiene SIDA (VIH) o no.

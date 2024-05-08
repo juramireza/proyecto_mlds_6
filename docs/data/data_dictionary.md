@@ -14,25 +14,25 @@ El conjunto de datos, contiene una variable dependiente llamada "infected", esta
 | trt | Indicador de tratamiento | int | (0 = solo ZDV; 1 = ZDV + ddI, 2 = ZDV + Zal, 3 = solo ddI) | Kaggle |
 | age | Edad del paciente | int | 12-70 | Kaggle|
 | wtkg | Masa del paciente en Kilogramos | float | 31-160 | Kaggle |
-| hemo | hemofilia |int  | Rango/Valores posibles | Kaggle|
-| homo | Actividad homosexual | int | Rango/Valores posibles | Kaggle |
-| karnof | Puntuación de Karnofsky | int | Rango/Valores posibles | Kaggle |
-| oprior | Terapia antirretroviral sin ZDV pre-175 | int | Rango/Valores posibles | Kaggle |
-| drugs | Antecedentes de uso de drogas intravenosas | int | Rango/Valores posibles | Kaggle |
-| z30 | ZDV en los 30 días anteriores al 175 | int | Rango/Valores posibles | Kaggle|
-| preanti | días antes de la terapia pre-175 | int | Rango/Valores posibles | Kaggle |
-| race | Carrera | int | Rango/Valores posibles | Kaggle|
-| gender | Género | int | Rango/Valores posibles | Kaggle |
-| str2 | Historia antirretroviral | int | Rango/Valores posibles | Kaggle |
-| strat | Estratificación de la historia antirretroviral | int | Rango/Valores posibles | Kaggle|
-| symptom | Indicador sintomático| int | Rango/Valores posibles | Kaggle |
-| treat | Tratamiento indicado | int | Rango/Valores posibles | Kaggle|
-| offtrt | Indicador de off-trt antes de 96 +/- 5 semanas | int | Rango/Valores posibles | Kaggle |
+| hemo | hemofilia |int  | (0=no, 1=si) | Kaggle|
+| homo | Actividad homosexual | int | (0=no, 1=si) | Kaggle |
+| karnof | Puntuación de Karnofsky | int |(en una escala de 0-100) | Kaggle |
+| oprior | Terapia antirretroviral sin ZDV pre-175 | int | (0=no, 1=si) | Kaggle |
+| drugs | Antecedentes de uso de drogas intravenosas | int | (0=no, 1=si) | Kaggle |
+| z30 | ZDV en los 30 días anteriores al 175 | int | (0=no, 1=si) | Kaggle|
+| preanti | días antes de la terapia pre-175 | int | 0-2851 | Kaggle |
+| race | Carrera | int | (0=Blanco, 1=no blanco) | Kaggle|
+| gender | Género | int | (0=F, 1=M) | Kaggle |
+| str2 | Historia antirretroviral | int | (0=ingenuo, 1=experimentado)  | Kaggle |
+| strat | Estratificación de la historia antirretroviral | int | (1='Sin tratamiento antirretroviral',2='> 1 pero <= 52 semanas de terapia antirretroviral previa',3='> 52 semanas) | Kaggle|
+| symptom | Indicador sintomático| int | (0=asintomático, 1=sintomático) | Kaggle |
+| treat | Tratamiento indicado | int | (0=ZDV only, 1=others) | Kaggle|
+| offtrt | Indicador de off-trt antes de 96 +/- 5 semanas | int | (0=no,1=si) | Kaggle |
 | cd40 | CD4 al inicio | int | Rango/Valores posibles | Kaggle |
 | cd420 | CD4 a las 20+/-5 semanas | int | Rango/Valores posibles | Kaggle|
 | cd80 | CD8 al inicio | int | Rango/Valores posibles | Kaggle |
 | cd820 | CD8 a las 20+/-5 semanas | int | Rango/Valores posibles | Kaggle|
-| infected | Está infectado con SIDA | int | Rango/Valores posibles | Kaggle |
+| infected | Está infectado con SIDA | int | (0=No, 1=si) | Kaggle |
 
 
 

@@ -10,10 +10,10 @@ El conjunto de datos, contiene una variable dependiente llamada "infected", esta
 
 | Variable | Descripción | Tipo de dato | Rango/Valores posibles | Fuente de datos |
 | --- | --- | --- | --- | --- |
-| time | Tiempo para el fracaso o la censura | int | Rango/Valores posibles | Kaggle |
-| trt | Indicador de tratamiento (0 = solo ZDV; 1 = ZDV + ddI, 2 = ZDV + Zal, 3 = solo ddI) | int | Rango/Valores posibles | Kaggle |
-| age | Edad del paciente | int | Rango/Valores posibles | Kaggle|
-| wtkg | Masa del paciente en Kilogramos | float | Rango/Valores posibles | Kaggle |
+| time | Tiempo para el fracaso o la censura | int | 14-1231| Kaggle |
+| trt | Indicador de tratamiento | int | (0 = solo ZDV; 1 = ZDV + ddI, 2 = ZDV + Zal, 3 = solo ddI) | Kaggle |
+| age | Edad del paciente | int | 12-70 | Kaggle|
+| wtkg | Masa del paciente en Kilogramos | float | 31-160 | Kaggle |
 | hemo | hemofilia |int  | Rango/Valores posibles | Kaggle|
 | homo | Actividad homosexual | int | Rango/Valores posibles | Kaggle |
 | karnof | Puntuación de Karnofsky | int | Rango/Valores posibles | Kaggle |

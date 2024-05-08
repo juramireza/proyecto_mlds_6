@@ -2,30 +2,21 @@
 
 ## Nombre del Proyecto
 
-Modelo de predictivo basado en aprendizaje de máquina para la detección del SIDA (VIH) con base en información clínica y sociodemográfica
+**_Modelo de predictivo basado en aprendizaje de máquina para la detección del SIDA (VIH) con base en información clínica y sociodemográfica_**
 
-## Objetivo del Proyecto a construir
+## **Objetivo del Proyecto a construir**
 <p align="justify">
 Desarrollo y Evaluación de Modelos de Aprendizaje Automático para la Detección del Virus de la Inmunodeficiencia Humana (VIH) mediante Datos Clínicos: Mejorando la Detección Temprana y la Gestión del Tratamiento.
 </p>
 
-### Objetivos específicos
+### **Objetivos específicos**
 
-<p align="justify">
-1.Realizar una selección adecuada de las variables con base en un análisis exploratorio de la base de datos clínicos. 
-</p>
-<p align="justify">
-2.Implementar tanto estrategias de control de versiones de código como de datos.
-</p>
-<p align="justify">
-3.Construir modelos de machine lerning para la detección de VIH aplicando distintos algoritmos de la ciencia de datos y/o la inteligencia artificial. 
-</p>
-<p align="justify">
-4.Utilizar MLflow para el seguimiento de experimentos, gestión de modelos y almacenamiento de artefactos.
-</p>
-<p align="justify">
-5.Construcción de una API para acceder y consumir el modelo de detección del VIH construído. 
-</p>
+1. Realizar una selección adecuada de las variables con base en un análisis exploratorio de la base de datos clínicos. 
+2. Implementar tanto estrategias de control de versiones de código como de datos.
+3. Construir modelos de machine lerning para la detección de VIH aplicando distintos algoritmos de la ciencia de datos y/o la inteligencia artificial. 
+4. Utilizar MLflow para el seguimiento de experimentos, gestión de modelos y almacenamiento de artefactos.
+5. Construcción de una API para acceder y consumir el modelo de detección del VIH construído. 
+
 
 
 ## Alcance del Proyecto a construir
@@ -52,23 +43,17 @@ Al finalizar el proyecto, se desea un modelo que consiga predecir si un paciente
 ## Metodología
 <p align="justify">
 El proyecto se realiza bajo el esquema de la metodología CRISP-DM, que consta de las siguientes fases: 
-</p>
-<p align="justify">
+
 1. Comprensión del Negocio: En esta fase, se busca comprender los objetivos del negocio y cómo se relacionan con el proyecto de minería de datos.
-</p>
-<p align="justify">
+
 2. Comprensión de los Datos: Aquí se recolectan los datos relevantes para el proyecto y se exploran para entender su estructura, calidad y contenido. 
-</p>
-<p align="justify">
+
 3. Preparación de los Datos: En esta fase, se limpian, transforman y preparan los datos para su uso en el modelado. 
-</p>
-<p align="justify">
+
 4. Modelado: En este paso se seleccionan y aplican técnicas de modelado para construir modelos predictivos.
-</p>
-<p align="justify">
+
 5. Evaluación: Aquí se evalúan los modelos construidos en términos de su precisión y relevancia para los objetivos del negocio.
-</p>
-<p align="justify">
+
 6. Despliegue: Finalmente, se implementa el modelo en el entorno operativo del negocio. 
 </p>
 <p align="justify">
@@ -88,7 +73,48 @@ Estas fases no son necesariamente lineales y pueden requerir iteraciones a lo la
 | Despliegue | 1 semana | del 27 de mayo al 31 de mayo |
 | Evaluación y entrega final | 1 semana | del 3 de junio al 7 de junio |
 
+## Diagrama gantt
 
+Para el desarrollo del proyecto se genero el siguiente diagrama de gantt:
+
+![Diagrama de Gantt](Diagrama.png)
+
+Este diagrama fue generado con el siguiente codigo de python:
+
+```python
+import matplotlib.pyplot as plt
+tareas = [
+    ("Comparación Final", 5, 1),
+    ("Construcción y Evaluación de RNP", 3, 2),
+    ("Construcción de Modelos Conv.", 2, 1),
+    ("Preparación de Datos y EDA", 0, 2)
+]
+def dibujar_gantt(tasks):
+    fig, ax = plt.subplots(figsize=(10, 5))
+
+    for idx, (task, start_week, duration) in enumerate(tasks):
+        ax.barh(idx, duration, left=start_week, height=0.5, align='center', alpha=0.8)
+
+    ax.set_xlim(0, 6)
+    ax.xaxis.grid(True)
+    ax.set_xlabel('Semanas')
+    ax.set_title('Diagrama de Gantt del Proyecto')
+    ax.set_yticks(range(len(tasks)))
+    ax.set_yticklabels([task[0] for task in tasks])
+
+    plt.tight_layout()
+
+    plt.show();
+
+dibujar_gantt(tareas)
+
+```
+
+## Solución Basada en Deep Learning Propuesta
+
+1. Uso de modelos convencionales y de redes neuronales
+2. Utilizacion de git, DVC y MLflow para control de versiones
+3. generacion de API con MLflow
 
 ## Equipo del Proyecto
 

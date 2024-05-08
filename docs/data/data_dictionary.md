@@ -10,11 +10,29 @@ El conjunto de datos, contiene una variable dependiente llamada "infected", esta
 
 | Variable | Descripción | Tipo de dato | Rango/Valores posibles | Fuente de datos |
 | --- | --- | --- | --- | --- |
-| variable_1 | Descripción de la variable 1 | Tipo de dato | Rango/Valores posibles | Kaggle |
-| variable_2 | Descripción de la variable 2 | Tipo de dato | Rango/Valores posibles | Kaggle |
-| variable_3 | Descripción de la variable 3 | Tipo de dato | Rango/Valores posibles | Kaggle|
-| variable_4 | Descripción de la variable 4 | Tipo de dato | Rango/Valores posibles | Kaggle |
-| variable_5 | Descripción de la variable 5 | Tipo de dato | Rango/Valores posibles | Kaggle|
+| time | Descripción de la variable 1 | Tipo de dato | Rango/Valores posibles | Kaggle |
+| trt | Descripción de la variable 2 | Tipo de dato | Rango/Valores posibles | Kaggle |
+| age | Descripción de la variable 3 | Tipo de dato | Rango/Valores posibles | Kaggle|
+| wtkg | Descripción de la variable 4 | Tipo de dato | Rango/Valores posibles | Kaggle |
+| hemo | Descripción de la variable 5 | Tipo de dato | Rango/Valores posibles | Kaggle|
+| time | Descripción de la variable 1 | Tipo de dato | Rango/Valores posibles | Kaggle |
+| trt | Descripción de la variable 2 | Tipo de dato | Rango/Valores posibles | Kaggle |
+| age | Descripción de la variable 3 | Tipo de dato | Rango/Valores posibles | Kaggle|
+| wtkg | Descripción de la variable 4 | Tipo de dato | Rango/Valores posibles | Kaggle |
+| hemo | Descripción de la variable 5 | Tipo de dato | Rango/Valores posibles | Kaggle|
+| time | Descripción de la variable 1 | Tipo de dato | Rango/Valores posibles | Kaggle |
+| trt | Descripción de la variable 2 | Tipo de dato | Rango/Valores posibles | Kaggle |
+| age | Descripción de la variable 3 | Tipo de dato | Rango/Valores posibles | Kaggle|
+| wtkg | Descripción de la variable 4 | Tipo de dato | Rango/Valores posibles | Kaggle |
+| hemo | Descripción de la variable 5 | Tipo de dato | Rango/Valores posibles | Kaggle|
+| time | Descripción de la variable 1 | Tipo de dato | Rango/Valores posibles | Kaggle |
+| trt | Descripción de la variable 2 | Tipo de dato | Rango/Valores posibles | Kaggle |
+| age | Descripción de la variable 3 | Tipo de dato | Rango/Valores posibles | Kaggle|
+| wtkg | Descripción de la variable 4 | Tipo de dato | Rango/Valores posibles | Kaggle |
+| hemo | Descripción de la variable 5 | Tipo de dato | Rango/Valores posibles | Kaggle|
+| time | Descripción de la variable 1 | Tipo de dato | Rango/Valores posibles | Kaggle |
+| trt | Descripción de la variable 2 | Tipo de dato | Rango/Valores posibles | Kaggle |
+
 
 - **Variable**: nombre de la variable.
 - **Descripción**: breve descripción de la variable.

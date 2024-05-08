@@ -8,7 +8,7 @@ Para la elaboración del modelo, se emplea la base de datos de Kaggle, que se en
 El conjunto de datos, contiene una variable dependiente llamada "infected", esta sirve para diferenciar los pacientes que tienen la enfermedad de los que no y hay 22 variables independientes. Además, el conjunto de datos, tiene 2139 observaciones, es decir, pacientes.
 </p>
 
-| Variable | Descripción | Tipo de dato | Rango/Valores posibles | Fuente de datos |
+| Variable | Descripción | Tipo de dato | Rango ó Valores posibles | Fuente de datos |
 | --- | --- | --- | --- | --- |
 | time | Tiempo para el fracaso o la censura | int | 14-1231| Kaggle |
 | trt | Indicador de tratamiento | int | (0 = solo ZDV; 1 = ZDV + ddI, 2 = ZDV + Zal, 3 = solo ddI) | Kaggle |

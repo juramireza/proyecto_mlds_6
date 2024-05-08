@@ -5,20 +5,25 @@
 Modelo de predictivo basado en aprendizaje de máquina para la detección del SIDA (VIH) con base en información clínica y sociodemográfica
 
 ## Objetivo del Proyecto a construir
-
+<p align="justify">
 Desarrollo y Evaluación de Modelos de Aprendizaje Automático para la Detección del Virus de la Inmunodeficiencia Humana (VIH) mediante Datos Clínicos: Mejorando la Detección Temprana y la Gestión del Tratamiento.
-
+</p>
 ### Objetivos específicos
-
+<p align="justify">
 1.Realizar una selección adecuada de las variables con base en un análisis exploratorio de la base de datos clínicos. 
-
+</p>
+<p align="justify">
 2.Implementar tanto estrategias de control de versiones de código como de datos.
-
+</p>
+<p align="justify">
 3.Construir modelos de machine lerning para la detección de VIH aplicando distintos algoritmos de la ciencia de datos y/o la inteligencia artificial. 
-
+</p>
+<p align="justify">
 4.Utilizar MLflow para el seguimiento de experimentos, gestión de modelos y almacenamiento de artefactos.
-
+</p>
+<p align="justify">
 5.Construcción de una API para acceder y consumir el modelo de detección del VIH construído. 
+</p>
 
 
 ## Alcance del Proyecto a construir

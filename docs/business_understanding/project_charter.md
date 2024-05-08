@@ -8,7 +8,9 @@ Modelo de predictivo basado en aprendizaje de máquina para la detección del SI
 <p align="justify">
 Desarrollo y Evaluación de Modelos de Aprendizaje Automático para la Detección del Virus de la Inmunodeficiencia Humana (VIH) mediante Datos Clínicos: Mejorando la Detección Temprana y la Gestión del Tratamiento.
 </p>
+
 ### Objetivos específicos
+
 <p align="justify">
 1.Realizar una selección adecuada de las variables con base en un análisis exploratorio de la base de datos clínicos. 
 </p>

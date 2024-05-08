@@ -10,19 +10,19 @@ El conjunto de datos, contiene una variable dependiente llamada "infected", esta
 
 | Variable | Descripción | Tipo de dato | Rango/Valores posibles | Fuente de datos |
 | --- | --- | --- | --- | --- |
-| time | Descripción de la variable 1 | int | Rango/Valores posibles | Kaggle |
-| trt | Descripción de la variable 2 | int | Rango/Valores posibles | Kaggle |
-| age | Descripción de la variable 3 | int | Rango/Valores posibles | Kaggle|
-| wtkg | Descripción de la variable 4 | float | Rango/Valores posibles | Kaggle |
-| hemo | Descripción de la variable 5 |int  | Rango/Valores posibles | Kaggle|
-| homo | Descripción de la variable 1 | int | Rango/Valores posibles | Kaggle |
-| karnof | Descripción de la variable 2 | int | Rango/Valores posibles | Kaggle |
-| oprior | Descripción de la variable 2 | int | Rango/Valores posibles | Kaggle |
-| drugs | Descripción de la variable 2 | int | Rango/Valores posibles | Kaggle |
-| z30 | Descripción de la variable 3 | int | Rango/Valores posibles | Kaggle|
-| preanti | Descripción de la variable 4 | int | Rango/Valores posibles | Kaggle |
-| race | Descripción de la variable 5 | int | Rango/Valores posibles | Kaggle|
-| gender | Descripción de la variable 1 | int | Rango/Valores posibles | Kaggle |
+| time | Tiempo para el fracaso o la censura | int | Rango/Valores posibles | Kaggle |
+| trt | Indicador de tratamiento (0 = solo ZDV; 1 = ZDV + ddI, 2 = ZDV + Zal, 3 = solo ddI) | int | Rango/Valores posibles | Kaggle |
+| age | Edad del paciente | int | Rango/Valores posibles | Kaggle|
+| wtkg | Masa del paciente en Kilogramos | float | Rango/Valores posibles | Kaggle |
+| hemo | hemofilia |int  | Rango/Valores posibles | Kaggle|
+| homo | Actividad homosexual | int | Rango/Valores posibles | Kaggle |
+| karnof | Puntuación de Karnofsky | int | Rango/Valores posibles | Kaggle |
+| oprior | Terapia antirretroviral sin ZDV pre-175 | int | Rango/Valores posibles | Kaggle |
+| drugs | Antecedentes de uso de drogas intravenosas | int | Rango/Valores posibles | Kaggle |
+| z30 | ZDV en los 30 días anteriores al 175 | int | Rango/Valores posibles | Kaggle|
+| preanti | días antes de la terapia pre-175 | int | Rango/Valores posibles | Kaggle |
+| race | Carrera | int | Rango/Valores posibles | Kaggle|
+| gender | Género | int | Rango/Valores posibles | Kaggle |
 | str2 | Descripción de la variable 2 | int | Rango/Valores posibles | Kaggle |
 | strat | Descripción de la variable 3 | int | Rango/Valores posibles | Kaggle|
 | symptom | Descripción de la variable 4 | int | Rango/Valores posibles | Kaggle |

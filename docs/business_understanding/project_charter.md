@@ -35,7 +35,15 @@ Al finalizar el proyecto, se desea un modelo que consiga predecir si un paciente
 
 ## Metodología
 
-[Descripción breve de la metodología que se utilizará para llevar a cabo el proyecto]
+### 1.1.3 Planeación del proyecto o pasos a seguir
+
+
+![El proyecto se realiza bajo el esquema de la metodología CRISP-DM](https://es.wikipedia.org/wiki/Cross_Industry_Standard_Process_for_Data_Mining#/media/Archivo:CRISP-DM_Process_Diagram.png)
+
+
+
+
+
 
 ## Cronograma
 

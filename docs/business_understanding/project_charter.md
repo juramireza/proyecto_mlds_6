@@ -24,7 +24,7 @@ Desarrollo y Evaluación de Modelos de Aprendizaje Automático para la Detecció
 4.Utilizar MLflow para el seguimiento de experimentos, gestión de modelos y almacenamiento de artefactos.
 </p>
 <p align="justify">
-5.Construcción de una API para acceder y consumir el modelo de detección del VIH construído. 
+5.Construcción de una API para acceder y consumir el modelo de detección del VIH en pacientes con base en información clínica y sociodemográfica. 
 </p>
 
 

@@ -23,16 +23,16 @@ El conjunto de datos, contiene una variable dependiente llamada "infected", esta
 | preanti | días antes de la terapia pre-175 | int | Rango/Valores posibles | Kaggle |
 | race | Carrera | int | Rango/Valores posibles | Kaggle|
 | gender | Género | int | Rango/Valores posibles | Kaggle |
-| str2 | Descripción de la variable 2 | int | Rango/Valores posibles | Kaggle |
-| strat | Descripción de la variable 3 | int | Rango/Valores posibles | Kaggle|
-| symptom | Descripción de la variable 4 | int | Rango/Valores posibles | Kaggle |
-| treat | Descripción de la variable 5 | int | Rango/Valores posibles | Kaggle|
-| offtrt | Descripción de la variable 1 | int | Rango/Valores posibles | Kaggle |
-| cd40 | Descripción de la variable 2 | int | Rango/Valores posibles | Kaggle |
-| cd420 | Descripción de la variable 3 | int | Rango/Valores posibles | Kaggle|
-| cd80 | Descripción de la variable 4 | int | Rango/Valores posibles | Kaggle |
-| cd820 | Descripción de la variable 5 | int | Rango/Valores posibles | Kaggle|
-| infected | Descripción de la variable 1 | int | Rango/Valores posibles | Kaggle |
+| str2 | Historia antirretroviral | int | Rango/Valores posibles | Kaggle |
+| strat | Estratificación de la historia antirretroviral | int | Rango/Valores posibles | Kaggle|
+| symptom | Indicador sintomático| int | Rango/Valores posibles | Kaggle |
+| treat | Tratamiento indicado | int | Rango/Valores posibles | Kaggle|
+| offtrt | Indicador de off-trt antes de 96 +/- 5 semanas | int | Rango/Valores posibles | Kaggle |
+| cd40 | CD4 al inicio | int | Rango/Valores posibles | Kaggle |
+| cd420 | CD4 a las 20+/-5 semanas | int | Rango/Valores posibles | Kaggle|
+| cd80 | CD8 al inicio | int | Rango/Valores posibles | Kaggle |
+| cd820 | CD8 a las 20+/-5 semanas | int | Rango/Valores posibles | Kaggle|
+| infected | Está infectado con SIDA | int | Rango/Valores posibles | Kaggle |
 
 
 

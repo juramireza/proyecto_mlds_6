@@ -40,7 +40,7 @@ Para la elaboración del modelo, se emplea la base de datos de Kaggle, que se en
 
 <p align="justify">
 Al finalizar el proyecto, se desea un modelo que consiga predecir si un paciente tiene SIDA (VIH) o no, con el menor grado de incertidumbre y que este desplegado, de tal forma, que pueda ser consumido por un usuario final. 
-<p align="justify">
+</p>
 
 ## Metodología
 El proyecto se realiza bajo el esquema de la metodología CRISP-DM, que consta de las siguientes fases: 
@@ -93,4 +93,4 @@ Con base a que son tres científicos de datos junior a tiempo parcial, trabajand
 ## Aprobaciones
 
 - Oscar Alberto Bustos B
-- Fecha de aprobación: 2 de Junio de 2024
+- Fecha de aprobación: 2 de Julio de 2024

@@ -30,28 +30,32 @@ La detección temprana del VIH sigue siendo un desafío en muchas áreas, partic
 Los métodos tradicionales para diagnosticar el VIH pueden ser costosos, invasivos y requerir infraestructura de laboratorio, lo que no siempre está disponible en regiones con recursos limitados. Con base, en lo descrito surge la necesidad de buscar alternativas menos costosas, por esto se plantea la opción de utilizar modelos de machine learning, para realizar el diagnóstico del SIDA (VIH) en pacientes.
 </p>
 
+<p align="justify">
 El proyecto se desarrolla en un período de 5 semanas, utilizando una base de datos clínicos y se centra en la construcción y despliegue de una herramienta, que permita la detección del virus del SIDA (VIH) con base en variables clínicas y sociodemográficas.  
+</p>
 
 <p align="justify">
 Para la elaboración del modelo, se emplea la base de datos de Kaggle, que se encuentra en el siguiente enlace: https://www.kaggle.com/datasets/aadarshvelu/aids-virus-infection-prediction/data. El conjunto, de datos contiene información tanto clínica como sociodemográfica de pacientes, donde algunos padecen de VIH y otros no. Por ende, se cuenta con los insumos suficientes para la construcción de un modelo de clasificación, que permita predecir si un paciente tiene SIDA (VIH) o no. El conjunto de datos, contiene una variable dependiente llamada "infected", esta sirve para diferenciar los pacientes que tienen la enfermedad de los que no y hay 22 variables independientes, que es viable utilizar para realizar la predicción. Además, el conjunto de datos, tiene 2139 observaciones, es decir, pacientes. 
 </p>
 
+<p align="justify">
 Al finalizar el proyecto, se desea un modelo que consiga predecir si un paciente tiene SIDA (VIH) o no, con el menor grado de incertidumbre y que este desplegado, de tal forma, que pueda ser consumido por un usuario final. 
+<p align="justify">
 
 ## Metodología
 El proyecto se realiza bajo el esquema de la metodología CRISP-DM, que consta de las siguientes fases: 
 
-1. Comprensión del Negocio: En esta fase, se busca comprender los objetivos del negocio y cómo se relacionan con el proyecto de minería de datos. Se definen los criterios de éxito y se establece un plan inicial para alcanzarlos.
+1. Comprensión del Negocio: En esta fase, se busca comprender los objetivos del negocio y cómo se relacionan con el proyecto de minería de datos.
 
-2. Comprensión de los Datos: Aquí se recolectan los datos relevantes para el proyecto y se exploran para entender su estructura, calidad y contenido. Se identifican patrones iniciales y se realizan análisis exploratorios para generar hipótesis.
+2. Comprensión de los Datos: Aquí se recolectan los datos relevantes para el proyecto y se exploran para entender su estructura, calidad y contenido. 
 
-3. Preparación de los Datos: En esta fase, se limpian, transforman y preparan los datos para su uso en el modelado. Esto implica manejar valores faltantes, eliminar ruido, seleccionar características relevantes y realizar otras tareas de preprocesamiento.
+3. Preparación de los Datos: En esta fase, se limpian, transforman y preparan los datos para su uso en el modelado. 
 
-4. Modelado: En este paso se seleccionan y aplican técnicas de modelado para construir modelos predictivos o descriptivos. Se ajustan los modelos a los datos y se evalúa su desempeño utilizando técnicas de validación.
+4. Modelado: En este paso se seleccionan y aplican técnicas de modelado para construir modelos predictivos.
 
-5. Evaluación: Aquí se evalúan los modelos construidos en términos de su precisión y relevancia para los objetivos del negocio. Se comparan diferentes modelos y se selecciona el mejor para su despliegue.
+5. Evaluación: Aquí se evalúan los modelos construidos en términos de su precisión y relevancia para los objetivos del negocio.
 
-6. Despliegue: Finalmente, se implementa el modelo en el entorno operativo del negocio. Se monitorea su desempeño en tiempo real y se realizan ajustes según sea necesario. Además, se documentan los resultados y se comunican a las partes interesadas.
+6. Despliegue: Finalmente, se implementa el modelo en el entorno operativo del negocio. 
 
 Estas fases no son necesariamente lineales y pueden requerir iteraciones a lo largo del proyecto. La metodología CRISP-DM proporciona un marco flexible y estructurado para guiar proyectos de minería de datos desde el inicio hasta la implementación exitosa.
 
@@ -78,7 +82,7 @@ Estas fases no son necesariamente lineales y pueden requerir iteraciones a lo la
 
 ## Presupuesto
 
-[Descripción del presupuesto asignado al proyecto]
+Con base a que son tres científicos de datos junior a tiempo parcial, trabajando durante un mes y una semana. Se estima un presupuesto de 12 millones de pesos colombianos.
 
 ## Stakeholders
 
@@ -88,6 +92,5 @@ Estas fases no son necesariamente lineales y pueden requerir iteraciones a lo la
 
 ## Aprobaciones
 
-- [Nombre y cargo del aprobador del proyecto]
-- [Firma del aprobador]
-- [Fecha de aprobación]
+- Oscar Alberto Bustos B
+- Fecha de aprobación: 2 de Junio de 2024

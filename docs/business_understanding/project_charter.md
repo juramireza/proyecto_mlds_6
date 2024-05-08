@@ -84,10 +84,11 @@ Este diagrama fue generado con el siguiente codigo de python:
 ```python
 import matplotlib.pyplot as plt
 tareas = [
-    ("Comparación Final", 5, 1),
-    ("Construcción y Evaluación de RNP", 3, 2),
-    ("Construcción de Modelos Conv.", 2, 1),
-    ("Preparación de Datos y EDA", 0, 2)
+    ("Entendimiento del negocio y carga de datos", 0, 1),
+    ("Preprocesamiento, análisis exploratorio", 1, 1),
+    ("Modelamiento y extracción de características", 2, 1),
+    ("Despliegue", 3, 1),
+    ("Evaluación y entrega final ", 4, 1)
 ]
 def dibujar_gantt(tasks):
     fig, ax = plt.subplots(figsize=(10, 5))
@@ -95,7 +96,7 @@ def dibujar_gantt(tasks):
     for idx, (task, start_week, duration) in enumerate(tasks):
         ax.barh(idx, duration, left=start_week, height=0.5, align='center', alpha=0.8)
 
-    ax.set_xlim(0, 6)
+    ax.set_xlim(0, 5)
     ax.xaxis.grid(True)
     ax.set_xlabel('Semanas')
     ax.set_title('Diagrama de Gantt del Proyecto')

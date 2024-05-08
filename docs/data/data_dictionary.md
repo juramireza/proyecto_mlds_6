@@ -28,13 +28,11 @@ El conjunto de datos, contiene una variable dependiente llamada "infected", esta
 | symptom | Indicador sintomático| int | (0=asintomático, 1=sintomático) | Kaggle |
 | treat | Tratamiento indicado | int | (0=ZDV only, 1=others) | Kaggle|
 | offtrt | Indicador de off-trt antes de 96 +/- 5 semanas | int | (0=no,1=si) | Kaggle |
-| cd40 | CD4 al inicio | int | Rango/Valores posibles | Kaggle |
-| cd420 | CD4 a las 20+/-5 semanas | int | Rango/Valores posibles | Kaggle|
-| cd80 | CD8 al inicio | int | Rango/Valores posibles | Kaggle |
-| cd820 | CD8 a las 20+/-5 semanas | int | Rango/Valores posibles | Kaggle|
+| cd40 | CD4 al inicio | int | 0-1199 | Kaggle |
+| cd420 | CD4 a las 20+/-5 semanas | int | 49-1119 | Kaggle|
+| cd80 | CD8 al inicio | int | 40-5011 | Kaggle |
+| cd820 | CD8 a las 20+/-5 semanas | int | 124-6035 | Kaggle|
 | infected | Está infectado con SIDA | int | (0=No, 1=si) | Kaggle |
-
-
 
 - **Variable**: nombre de la variable.
 - **Descripción**: breve descripción de la variable.

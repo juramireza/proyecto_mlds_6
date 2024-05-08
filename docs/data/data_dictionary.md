@@ -10,27 +10,29 @@ El conjunto de datos, contiene una variable dependiente llamada "infected", esta
 
 | Variable | Descripción | Tipo de dato | Rango/Valores posibles | Fuente de datos |
 | --- | --- | --- | --- | --- |
-| time | Descripción de la variable 1 | int64 | Rango/Valores posibles | Kaggle |
-| trt | Descripción de la variable 2 | int64 | Rango/Valores posibles | Kaggle |
-| age | Descripción de la variable 3 | int64 | Rango/Valores posibles | Kaggle|
-| wtkg | Descripción de la variable 4 | float64 | Rango/Valores posibles | Kaggle |
-| hemo | Descripción de la variable 5 |int64   | Rango/Valores posibles | Kaggle|
-| homo | Descripción de la variable 1 | Tipo de dato | Rango/Valores posibles | Kaggle |
-| drugs | Descripción de la variable 2 | Tipo de dato | Rango/Valores posibles | Kaggle |
-| z30 | Descripción de la variable 3 | Tipo de dato | Rango/Valores posibles | Kaggle|
-| preanti | Descripción de la variable 4 | Tipo de dato | Rango/Valores posibles | Kaggle |
-| race | Descripción de la variable 5 | Tipo de dato | Rango/Valores posibles | Kaggle|
-| gender | Descripción de la variable 1 | Tipo de dato | Rango/Valores posibles | Kaggle |
-| str2 | Descripción de la variable 2 | Tipo de dato | Rango/Valores posibles | Kaggle |
-| strat | Descripción de la variable 3 | Tipo de dato | Rango/Valores posibles | Kaggle|
-| symptom | Descripción de la variable 4 | Tipo de dato | Rango/Valores posibles | Kaggle |
-| treat | Descripción de la variable 5 | Tipo de dato | Rango/Valores posibles | Kaggle|
-| offtrt | Descripción de la variable 1 | Tipo de dato | Rango/Valores posibles | Kaggle |
-| cd40 | Descripción de la variable 2 | Tipo de dato | Rango/Valores posibles | Kaggle |
-| cd420 | Descripción de la variable 3 | Tipo de dato | Rango/Valores posibles | Kaggle|
-| cd80 | Descripción de la variable 4 | Tipo de dato | Rango/Valores posibles | Kaggle |
-| cd820 | Descripción de la variable 5 | Tipo de dato | Rango/Valores posibles | Kaggle|
-| infected | Descripción de la variable 1 | Tipo de dato | Rango/Valores posibles | Kaggle |
+| time | Descripción de la variable 1 | int | Rango/Valores posibles | Kaggle |
+| trt | Descripción de la variable 2 | int | Rango/Valores posibles | Kaggle |
+| age | Descripción de la variable 3 | int | Rango/Valores posibles | Kaggle|
+| wtkg | Descripción de la variable 4 | float | Rango/Valores posibles | Kaggle |
+| hemo | Descripción de la variable 5 |int  | Rango/Valores posibles | Kaggle|
+| homo | Descripción de la variable 1 | int | Rango/Valores posibles | Kaggle |
+| karnof | Descripción de la variable 2 | int | Rango/Valores posibles | Kaggle |
+| oprior | Descripción de la variable 2 | int | Rango/Valores posibles | Kaggle |
+| drugs | Descripción de la variable 2 | int | Rango/Valores posibles | Kaggle |
+| z30 | Descripción de la variable 3 | int | Rango/Valores posibles | Kaggle|
+| preanti | Descripción de la variable 4 | int | Rango/Valores posibles | Kaggle |
+| race | Descripción de la variable 5 | int | Rango/Valores posibles | Kaggle|
+| gender | Descripción de la variable 1 | int | Rango/Valores posibles | Kaggle |
+| str2 | Descripción de la variable 2 | int | Rango/Valores posibles | Kaggle |
+| strat | Descripción de la variable 3 | int | Rango/Valores posibles | Kaggle|
+| symptom | Descripción de la variable 4 | int | Rango/Valores posibles | Kaggle |
+| treat | Descripción de la variable 5 | int | Rango/Valores posibles | Kaggle|
+| offtrt | Descripción de la variable 1 | int | Rango/Valores posibles | Kaggle |
+| cd40 | Descripción de la variable 2 | int | Rango/Valores posibles | Kaggle |
+| cd420 | Descripción de la variable 3 | int | Rango/Valores posibles | Kaggle|
+| cd80 | Descripción de la variable 4 | int | Rango/Valores posibles | Kaggle |
+| cd820 | Descripción de la variable 5 | int | Rango/Valores posibles | Kaggle|
+| infected | Descripción de la variable 1 | int | Rango/Valores posibles | Kaggle |
 
 
 

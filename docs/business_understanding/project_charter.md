@@ -2,7 +2,7 @@
 
 ## Nombre del Proyecto
 
-"Modelo de predictivo para la detección del SIDA (VIH) con base en información clínica y sociodemográfica”
+Modelo de predictivo basado en aprendizaje de máquina para la detección del SIDA (VIH) con base en información clínica y sociodemográfica
 
 ## Objetivo del Proyecto a construir
 

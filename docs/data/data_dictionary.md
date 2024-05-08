@@ -21,18 +21,18 @@ El conjunto de datos, contiene una variable dependiente llamada "infected", esta
 | drugs | Antecedentes de uso de drogas intravenosas | int | (0=no, 1=si) | Kaggle |
 | z30 | ZDV en los 30 días anteriores al 175 | int | (0=no, 1=si) | Kaggle|
 | preanti | días antes de la terapia pre-175 | int | 0-2851 | Kaggle |
-| race | Carrera | int | (0=Blanco, 1=no blanco) | Kaggle|
+| race | Carrera | int | (0=blanco, 1=no blanco) | Kaggle|
 | gender | Género | int | (0=F, 1=M) | Kaggle |
 | str2 | Historia antirretroviral | int | (0=ingenuo, 1=experimentado)  | Kaggle |
 | strat | Estratificación de la historia antirretroviral | int | (1='Sin tratamiento antirretroviral',2='> 1 pero <= 52 semanas de terapia antirretroviral previa',3='> 52 semanas) | Kaggle|
 | symptom | Indicador sintomático| int | (0=asintomático, 1=sintomático) | Kaggle |
-| treat | Tratamiento indicado | int | (0=ZDV only, 1=others) | Kaggle|
+| treat | Tratamiento indicado | int | (0= solo ZDV , 1=otros) | Kaggle|
 | offtrt | Indicador de off-trt antes de 96 +/- 5 semanas | int | (0=no,1=si) | Kaggle |
 | cd40 | CD4 al inicio | int | 0-1199 | Kaggle |
 | cd420 | CD4 a las 20+/-5 semanas | int | 49-1119 | Kaggle|
 | cd80 | CD8 al inicio | int | 40-5011 | Kaggle |
 | cd820 | CD8 a las 20+/-5 semanas | int | 124-6035 | Kaggle|
-| infected | Está infectado con SIDA | int | (0=No, 1=si) | Kaggle |
+| infected | Está infectado con SIDA | int | (0=no, 1=si) | Kaggle |
 
 - **Variable**: nombre de la variable.
 - **Descripción**: breve descripción de la variable.

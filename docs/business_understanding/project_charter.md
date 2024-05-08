@@ -13,7 +13,7 @@ Desarrollo y Evaluación de Modelos de Aprendizaje Automático para la Detecció
 
 1. Realizar una selección adecuada de las variables con base en un análisis exploratorio de la base de datos clínicos. 
 2. Implementar tanto estrategias de control de versiones de código como de datos.
-3. Construir modelos de machine lerning para la detección de VIH aplicando distintos algoritmos de la ciencia de datos y/o la inteligencia artificial. 
+3. Construir modelos de machine lerning para la detección de VIH aplicando distintos algoritmos de la ciencia de datos o la inteligencia artificial. 
 4. Utilizar MLflow para el seguimiento de experimentos, gestión de modelos y almacenamiento de artefactos.
 5. Construcción de una API para acceder y consumir el modelo de detección del VIH construído. 
 

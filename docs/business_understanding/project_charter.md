@@ -34,15 +34,23 @@ Para la elaboración del modelo, se emplea la base de datos de Kaggle, que se en
 Al finalizar el proyecto, se desea un modelo que consiga predecir si un paciente tiene SIDA (VIH) o no, con el menor grado de incertidumbre y que este desplegado, de tal forma, que pueda ser consumido por un usuario final. 
 
 ## Metodología
+El proyecto se realiza bajo el esquema de la metodología CRISP-DM, que consta de las siguientes fases: 
 
-### 1.1.3 Planeación del proyecto o pasos a seguir
+1. Comprensión del Negocio: En esta fase, se busca comprender los objetivos del negocio y cómo se relacionan con el proyecto de minería de datos. Se definen los criterios de éxito y se establece un plan inicial para alcanzarlos.
 
+2. Comprensión de los Datos: Aquí se recolectan los datos relevantes para el proyecto y se exploran para entender su estructura, calidad y contenido. Se identifican patrones iniciales y se realizan análisis exploratorios para generar hipótesis.
 
-![El proyecto se realiza bajo el esquema de la metodología CRISP-DM](https://es.wikipedia.org/wiki/Cross_Industry_Standard_Process_for_Data_Mining#/media/Archivo:CRISP-DM_Process_Diagram.png)
+3. Preparación de los Datos: En esta fase, se limpian, transforman y preparan los datos para su uso en el modelado. Esto implica manejar valores faltantes, eliminar ruido, seleccionar características relevantes y realizar otras tareas de preprocesamiento.
 
+4. Modelado: En este paso se seleccionan y aplican técnicas de modelado para construir modelos predictivos o descriptivos. Se ajustan los modelos a los datos y se evalúa su desempeño utilizando técnicas de validación.
 
+5. Evaluación: Aquí se evalúan los modelos construidos en términos de su precisión y relevancia para los objetivos del negocio. Se comparan diferentes modelos y se selecciona el mejor para su despliegue.
 
+6. Despliegue: Finalmente, se implementa el modelo en el entorno operativo del negocio. Se monitorea su desempeño en tiempo real y se realizan ajustes según sea necesario. Además, se documentan los resultados y se comunican a las partes interesadas.
 
+Estas fases no son necesariamente lineales y pueden requerir iteraciones a lo largo del proyecto. La metodología CRISP-DM proporciona un marco flexible y estructurado para guiar proyectos de minería de datos desde el inicio hasta la implementación exitosa.
+
+![El proyecto se realiza bajo el esquema de la metodología CRISP-DM](https://upload.wikimedia.org/wikipedia/commons/b/b9/CRISP-DM_Process_Diagram.png)
 
 
 ## Cronograma

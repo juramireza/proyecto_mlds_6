@@ -51,8 +51,9 @@ Al finalizar el proyecto, se desea un modelo que consiga predecir si un paciente
 
 ## Equipo del Proyecto
 
-- [Nombre y cargo del líder del proyecto]
-- [Nombre y cargo de los miembros del equipo]
+- Cientifíco de datos junior : Franklin Granadados 
+- Cientifíco de datos junior: Julián David Ortiz 
+- Cientifíco de datos junior: Juan David Ramírez Ávila 
 
 ## Presupuesto
 

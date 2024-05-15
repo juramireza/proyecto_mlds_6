@@ -21,7 +21,7 @@ El conjunto de datos, contiene una variable dependiente llamada "infected", esta
 | drugs | Antecedentes de uso de drogas intravenosas | int | (0=no, 1=si) | Kaggle |
 | z30 | ZDV en los 30 días anteriores al 175 | int | (0=no, 1=si) | Kaggle|
 | preanti | días antes de la terapia pre-175 | int | 0-2851 | Kaggle |
-| race | Carrera | int | (0=blanco, 1=no blanco) | Kaggle|
+| race | Raza | int | (0=blanco, 1=no blanco) | Kaggle|
 | gender | Género | int | (0=F, 1=M) | Kaggle |
 | str2 | Historia antirretroviral | int | (0=ingenuo, 1=experimentado)  | Kaggle |
 | strat | Estratificación de la historia antirretroviral | int | (1='Sin tratamiento antirretroviral',2='> 1 pero <= 52 semanas de terapia antirretroviral previa',3='> 52 semanas) | Kaggle|

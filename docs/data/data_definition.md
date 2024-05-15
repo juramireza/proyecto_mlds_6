@@ -2,24 +2,46 @@
 
 ## Origen de los datos
 
-- [ ] Especificar la fuente de los datos y la forma en que se obtuvieron. 
+<p align="justify">
+Para la elaboración del modelo, se emplea la base de datos de Kaggle, que se encuentra en el siguiente enlace: https://www.kaggle.com/datasets/aadarshvelu/aids-virus-infection-prediction/data. El conjunto, de datos contiene información tanto clínica como sociodemográfica de pacientes, donde algunos padecen de VIH y otros no. Por ende, cuenta con los insumos suficientes para la construcción de un modelo de clasificación, que permita predecir si un paciente tiene SIDA (VIH) o no.
+
+El conjunto de datos, contiene una variable dependiente llamada "infected", esta sirve para diferenciar los pacientes que tienen la enfermedad de los que no y hay 22 variables independientes. Además, el conjunto de datos, tiene 2139 observaciones, es decir, pacientes.
+
+Los datos fueron extraídos directamente desde la url https://www.kaggle.com/datasets/aadarshvelu/aids-virus-infection-prediction/data?select=AIDS_Classification.csv de Kaggle, para esto tuvo que hacerce una conexión a la API de Kaggle, con el apoyo de una cuenta con acceso a Kaggle y un token.
+</p>
 
 ## Especificación de los scripts para la carga de datos
 
-- [ ] Especificar los scripts utilizados para la carga de los datos. 
+<p align="justify">
 
-## Referencias a rutas o bases de datos origen y destino
+La carga del conjunto de datos, se hizo utilizando Google Colab para desarrollar el código, Github como repositorio tanto para el código como para el conjunto de datos y dvc, para versionar los datos.
 
-- [ ] Especificar las rutas o bases de datos de origen y destino para los datos.
+Para la carga de los datos y el versionamiento de estos, se hizo una conexión directa a Kaggle, con los scripts que se listan a continuación:
 
-### Rutas de origen de datos
+- https://github.com/juramireza/proyecto_mlds_6/blob/master/scripts/data_acquisition/data_acquisition.py
 
-- [ ] Especificar la ubicación de los archivos de origen de los datos.
-- [ ] Especificar la estructura de los archivos de origen de los datos.
-- [ ] Describir los procedimientos de transformación y limpieza de los datos.
+- https://github.com/juramireza/proyecto_mlds_6/blob/master/scripts/data_acquisition/data_acquisition.ipynb 
 
-### Base de datos de destino
+</p>
 
-- [ ] Especificar la base de datos de destino para los datos.
-- [ ] Especificar la estructura de la base de datos de destino.
-- [ ] Describir los procedimientos de carga y transformación de los datos en la base de datos de destino.
+## Referencias a rutas de origen de los datos y destino
+
+- La ruta de origen de los datos, es Kaggle y la url es https://www.kaggle.com/datasets/aadarshvelu/aids-virus-infection-prediction/data?select=AIDS_Classification.csv .
+
+- La ruta de destino, donde se consolidan los datos, para ser consumidos para el modelamiento es: https://github.com/juramireza/proyecto_mlds_6/blob/master/data/AIDS_Classification_filtered.csv
+
+### Preprocesamiento del conjunto de datos 
+
+El conjunto de datos, contiene una variable dependiente llamada "infected", esta sirve para diferenciar los pacientes que tienen la enfermedad de los que no y hay 22 variables independientes. Además, el conjunto de datos, tiene 2139 observaciones, es decir, pacientes.
+
+Se hizo un análisis exploratorio de los datos, y con base en este se detectaron valores atípicos en distintas variables independientes del conjunto de datos, principalmente para las observaciones, que están bajo la categoría de no infectado. Entonces, se hizo una limpieza de datos, retirando aquellas observaciones, que tienen valores atípicos en las variables del conjunto de datos. 
+
+Adicionalmente, se evidenció que existe un desbalance de clases, entre infectado y no infectado. Ya que, se tiene aproximadamente el triple de observaciones bajo la categoría de no infectado en comparación con la clase de infectado, después de hacer el filtrado de de las observaciones atípicas. 
+
+Los scritps, con los que se realizó la limpieza descrita anteriormente, se emplearon los scripts, que se encuentran en las siguientes rutas: 
+
+- Script con la función de limpieza: https://github.com/juramireza/proyecto_mlds_6/blob/master/scripts/eda/limpieza.py
+
+- Script donde se llama la función de limpieza y se hace un análisis exploratorio preliminar: https://github.com/juramireza/proyecto_mlds_6/blob/master/scripts/eda/limpieza.py
+
+

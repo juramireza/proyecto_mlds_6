@@ -32,7 +32,7 @@ Para la carga de los datos y el versionamiento de estos, se hizo una conexión d
 
 ### Preprocesamiento del conjunto de datos 
 
-El conjunto de datos, contiene una variable dependiente llamada "infected", esta sirve para diferenciar los pacientes que tienen la enfermedad de los que no y hay 22 variables independientes. Además, el conjunto de datos, tiene 2139 observaciones, es decir, pacientes.
+El conjunto de datos, contiene una variable dependiente llamada "infected", esta sirve para diferenciar los pacientes que tienen la enfermedad de los que no y hay 22 variables independientes. Además, el conjunto de datos, tiene 2139 observaciones, es decir, pacientes. Y esta en un archivo comprimido .zip y dentro de este, hay un archivo .csv, separado por comas, además el conjunto de datos tiene un formato tabular, es decir, en filas y columnas. 
 
 Se hizo un análisis exploratorio de los datos, y con base en este se detectaron valores atípicos en distintas variables independientes del conjunto de datos, principalmente para las observaciones, que están bajo la categoría de no infectado. Entonces, se hizo una limpieza de datos, retirando aquellas observaciones, que tienen valores atípicos en las variables del conjunto de datos. 
 

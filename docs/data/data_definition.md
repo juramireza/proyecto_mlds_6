@@ -28,13 +28,16 @@ Para la carga de los datos y el versionamiento de estos, se hizo una conexión d
 
 - La ruta de origen de los datos, es Kaggle y la url es https://www.kaggle.com/datasets/aadarshvelu/aids-virus-infection-prediction/data?select=AIDS_Classification.csv .
 
-- La ruta de destino, donde se consolidan los datos, para ser consumidos para el modelamiento es: https://github.com/juramireza/proyecto_mlds_6/blob/master/data/AIDS_Classification_filtered.csv
+- Las rutas de destino, donde se consolidan los datos, para ser consumidos para el modelamiento son: 
+
+- Con datos atípicos: https://github.com/juramireza/proyecto_mlds_6/blob/master/data/AIDS_Classification.csv 
+- Sin datos atítpicos: https://github.com/juramireza/proyecto_mlds_6/blob/master/data/AIDS_Classification_filtered.csv
 
 ### Preprocesamiento del conjunto de datos 
 
 El conjunto de datos, contiene una variable dependiente llamada "infected", esta sirve para diferenciar los pacientes que tienen la enfermedad de los que no y hay 22 variables independientes. Además, el conjunto de datos, tiene 2139 observaciones, es decir, pacientes. Y esta en un archivo comprimido .zip y dentro de este, hay un archivo .csv, separado por comas, además el conjunto de datos tiene un formato tabular, es decir, en filas y columnas. 
 
-Se hizo un análisis exploratorio de los datos, y con base en este se detectaron valores atípicos en distintas variables independientes del conjunto de datos, principalmente para las observaciones, que están bajo la categoría de no infectado. Entonces, se hizo una limpieza de datos, retirando aquellas observaciones, que tienen valores atípicos en las variables del conjunto de datos. 
+Se hizo un análisis exploratorio de los datos, y con base en este se detectaron valores atípicos en distintas variables independientes del conjunto de datos, principalmente para las observaciones, que están bajo la categoría de no infectado. Entonces, se hizo una limpieza de datos, retirando aquellas observaciones, que tienen valores atípicos en las variables del conjunto de datos y guardando el conjunto de datos en la ruta, https://github.com/juramireza/proyecto_mlds_6/blob/master/data/AIDS_Classification_filtered.csv y el original en la ruta, https://github.com/juramireza/proyecto_mlds_6/blob/master/data/AIDS_Classification.csv . También, si hizo un análisis de la distribución de los datos atípicos y como se envidencia en el script https://github.com/juramireza/proyecto_mlds_6/blob/master/scripts/eda/data_analysis.ipynb la proporción de estos es baja, entonces, para la construcción del modelo, se va a experimentar realizando el modelo con los datos atípicos y sin los datos atípicos y comparar los resultados obtenidos, dada la baja proporción de outliers, se esperaría que los resultados en ambos casos sean muy similares. 
 
 Adicionalmente, se evidenció que existe un desbalance de clases, entre infectado y no infectado. Ya que, se tiene aproximadamente el triple de observaciones bajo la categoría de no infectado en comparación con la clase de infectado, después de hacer el filtrado de de las observaciones atípicas. 
 

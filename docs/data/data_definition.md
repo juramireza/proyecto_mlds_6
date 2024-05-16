@@ -34,7 +34,7 @@ Para la carga de los datos y el versionamiento de estos, se hizo una conexión d
 
 - Las rutas de destino, donde se consolidan los datos, para ser consumidos para el modelamiento son: 
 
-- Sin datos atípicos: https://github.com/juramireza/proyecto_mlds_6/blob/master/data/AIDS_cleaned.csv.dvc
+- Sin datos atípicos: https://github.com/juramireza/proyecto_mlds_6/blob/master/data/AIDS_cleaned.csv
 - Con datos atítpicos y con la limpieza basada en el análisis exploratorio: https://github.com/juramireza/proyecto_mlds_6/blob/master/data/AIDS_Classification_filtered.csv
 
 ### Preprocesamiento del conjunto de datos 
@@ -44,7 +44,7 @@ El conjunto de datos, contiene una variable dependiente llamada "infected", esta
 </p>
 
 <p align="justify">
-Se hizo un análisis exploratorio de los datos, y con base en este se detectaron valores atípicos en distintas variables independientes del conjunto de datos, principalmente para las observaciones, que están bajo la categoría de no infectado. Entonces, se hizo una limpieza de datos, retirando aquellas observaciones, que tienen valores atípicos  y guardando el conjunto de datos en la ruta, https://github.com/juramireza/proyecto_mlds_6/blob/master/data/AIDS_cleaned.csv.dvc y el conjunto de datos con datos atípicos se encuentra en la ruta, https://github.com/juramireza/proyecto_mlds_6/blob/master/data/AIDS_Classification_filtered.csv. 
+Se hizo un análisis exploratorio de los datos, y con base en este se detectaron valores atípicos en distintas variables independientes del conjunto de datos, principalmente para las observaciones, que están bajo la categoría de no infectado. Entonces, se hizo una limpieza de datos, retirando aquellas observaciones, que tienen valores atípicos  y guardando el conjunto de datos en la ruta, https://github.com/juramireza/proyecto_mlds_6/blob/master/data/AIDS_cleaned.csv y el conjunto de datos con datos atípicos se encuentra en la ruta, https://github.com/juramireza/proyecto_mlds_6/blob/master/data/AIDS_Classification_filtered.csv. 
 
 También, se hizo un análisis de la distribución de los datos atípicos en las variables independientes y como se envidencia en el script https://github.com/juramireza/proyecto_mlds_6/blob/master/scripts/eda/data_analysis.ipynb que la proporción de estos es baja, entonces, para la construcción del modelo, se experimenta realizando el modelo con los datos atípicos y sin los datos atípicos. Y luego se procede comparar los resultados obtenidos.
 </p>

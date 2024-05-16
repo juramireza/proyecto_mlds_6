@@ -59,6 +59,10 @@ A continuación, se presenta un gráfico que permite apreciar la distribución d
 
 ![Texto alternativo](https://github.com/juramireza/proyecto_mlds_6/raw/master/docs/data/Distribution_Infected.png)
 
+Posteriormente, se analizó la distribución de las 15 variables categóricas en función de la variable objetivo (infected) 
+
+![Texto alternativo](https://github.com/juramireza/proyecto_mlds_6/raw/master/docs/data/Distribution_infected_categorical.png)
+
 ## Variables individuales
 
 En esta sección se presenta un análisis detallado de cada variable individual. Se muestran estadísticas descriptivas, gráficos de distribución y de relación con la variable objetivo (si aplica). Además, se describen posibles transformaciones que se pueden aplicar a la variable.

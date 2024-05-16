@@ -40,15 +40,12 @@ El gráfico del conteo de observaciones por categoría en cada una de las variab
 * No tiene indicador de off-trt antes de 96 +/- 5 semanas.
 * No está infectado con SIDA.
 
-</p>
-
-
-
-
-
 ## Variable objetivo
 
-En esta sección se describe la variable objetivo. Se muestra la distribución de la variable y se presentan gráficos que permiten entender mejor su comportamiento.
+También es importante analizar la variable infected, ya que, es la variable dependiente, es decir, la variable objetivo y que se desea predecir. Ya que, se desea construir un modelo capaz de predicir si un paciente tiene VIH (SIDA) o no. 
+
+A continuación, se presenta un gráfico que permite apreciar la distribución de la variable infected, y se observa que, estamos frente a un conjunto de datos desbalanceado, ya que, aproximadamente el 25 % de los pacientes están infectados y el otro 75 %, no lo esta. Entonces, para cuando se vaya a realizar el modelo, se deben aplicar técnicas de balanceo o realizar un muestreo, con el fin de obtener un conjunto de datos balanceado, dado que el conjunto de datos es relativamente pequeño 2139 observaciones, es viable inclinarse, por la opción de aplicar una técnica para balancear el conjunto de datos, es decir, para igual el número de observaciones de pacientes infectados y no infectados. 
+
 
 ## Variables individuales
 
@@ -61,3 +58,4 @@ En esta sección se presenta un ranking de las variables más importantes para p
 ## Relación entre variables explicativas y variable objetivo
 
 En esta sección se presenta un análisis de la relación entre las variables explicativas y la variable objetivo. Se utilizan gráficos como la matriz de correlación y el diagrama de dispersión para entender mejor la relación entre las variables. Además, se pueden utilizar técnicas como la regresión lineal para modelar la relación entre las variables.
+</p>

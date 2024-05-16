@@ -89,22 +89,27 @@ Y en la imágen que se observa, seguidamente se validan los datos mencionados an
 
 <p align="justify">
 Posteriormente, se realizó un gráfico en el que se muestran los histogramas de cada variables numérica, diferenciando por la variable "infected", es decir, la variable objetivo. Y también se construyeron, diagramas de caja y bigotes, para revisar los datos atípicos en cada una de las variables y diferenciando por cada clase. Consecutivamente, se presentan estos dos gráficos. 
-
 </p>
 
 ![Texto alternativo](https://github.com/juramireza/proyecto_mlds_6/raw/master/docs/data/HistInfected.png)
 
+<p align="justify">
 En el gráfico de los histogramas de cada variable, diferenciando por la variable objetivo infected, se aprecia que las distribuciones al observarse por clase, no son similares. 
+</p>
 
 ![Texto alternativo](https://github.com/juramireza/proyecto_mlds_6/raw/master/docs/data/BoxPlotInfected.png)
 
+<p align="justify">
 Y al analizar, los Boxplot de cada variable, diferenciados por la variable objetivo, se identifica la presencia de valores atípicos. Entonces, se procede a revisar, el número de valores atípicos en cada variable y calcular la proporción de estos con base en el total de observaciones y se obtienen los resultados de la tabla que se muestra seguidamente:
-
+</p>
 
 ![Texto alternativo](https://github.com/juramireza/proyecto_mlds_6/raw/master/docs/data/Atipicos.PNG)
 
+Entonces, se evidencia que la propoción de valores atípicos, con base en el total es baja, por ende, es viable dejarlos para el modelamiento. Entonces, se planea experimentar durante el modelamiento, con un conjunto de datos, con los valores atípicos y sin los valores atípicos. 
 
+<p align="justify">
 En esta sección se presenta un análisis detallado de cada variable individual. Se muestran estadísticas descriptivas, gráficos de distribución y de relación con la variable objetivo (si aplica). Además, se describen posibles transformaciones que se pueden aplicar a la variable.
+</p>
 
 ## Ranking de variables
 

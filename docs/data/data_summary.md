@@ -21,8 +21,28 @@ Con base en el análisis realizado se encontró que:
 2. No se tienen observaciones repetidas. 
 3. Se realizó un gráfico para revisar el número de observaciones por cada categoría en las variables trt, hemo, homo, drugs, karnof, oprior, z30, race, gender, str2,strat, symptom, treat, offtrt e infected. 
 
-![test](docs/data/CountCategories.png)
+![Texto alternativo](https://github.com/juramireza/proyecto_mlds_6/raw/master/docs/data/CountCategories.png)
 
+El gráfico del conteo de observaciones por categoría en cada una de las variables, permite observar que la variable trt que señala un indicador del tratamiento, se tiene cuatro categorías  y que las observaciones están distribuidas de forma relativamente equitativa. En los demás casos, las categorías están desbalanceadas. El caso más llamativo es el de la variable oprior, donde la gran mayoría de las observaciones se encuentran en el valor cero que indica "no": no se cuenta con "Terapia antirretroviral sin ZDV pre-175". Para los otros atributos, es posible apreciar que la mayoría de pacientes:
+
+* No son hemofílicos.
+* Son homosexuales.
+* No tienen antecedentes de uso de drogas intravenosas.
+* Tienen una puntuación de 100 en la puntuación de Karnofsky.
+* Tienen ZDV en los 30 días anteriores al 175.
+* Son de "raza" blanca.
+* Son de género masculino.
+* Son experimentados en su historia antirretroviral.
+* No tienen tratamiento antirretroviral. Otro grupo, casi igual, pero un poco menor, han llevado tratamiento por más de 52 semanas.
+* Son asintomáticos.
+* El tratamiento indicado está en "otros" (no es solo ZDV).
+* No tiene indicador de off-trt antes de 96 +/- 5 semanas.
+* No está infectado con SIDA.
+
+También, es importante analizar la distribución de la variable infected, 
+Tengo un especial interés en la variable de infectados, pues será la variable objetivo en los modelos de aprendizaje de máquina que se quieren implementar posteriormente. Miro con más detalle su distribución.
+
+</p>
 
 En esta sección se presenta un resumen de la calidad de los datos. Se describe la cantidad y porcentaje de valores faltantes, valores extremos, errores y duplicados. También se muestran las acciones tomadas para abordar estos problemas.
 

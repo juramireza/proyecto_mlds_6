@@ -157,5 +157,5 @@ Y con base, en el diagrama final de correlación se construye la siguiente tabla
 | wtkg | 0.02 | 13 | 
 | hemo |0.01  | 14| 
 
-
+El análisis expuesto, se encuentra con mayor detalle en el script: https://github.com/juramireza/proyecto_mlds_6/blob/master/scripts/eda/data_analysis.ipynb
 

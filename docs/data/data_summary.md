@@ -116,8 +116,21 @@ Después,  se hizo un análisis de correlación entre las variables numéricas y
 
 ![Texto alternativo](https://github.com/juramireza/proyecto_mlds_6/raw/master/docs/data/CorrNum.png)
 
-</p>
+Fuera de la diagonal, las correlaciones más altas las encuentro entre las variables "cd40" con "cd420" y "cd80" con "cd820". Como representan la misma medición de un parámetro en diferentes momentos, se propone para ambos casos calcular una variable que sea la diferencia, por ejemplo cd420-cd40 y quitar las dos varibles originales, con el fin de evitar problemas de multicolinealidad. 
 
+Después, se hace un diagrama de correlación, con todas las variables del conjunto de datos, como se observa inmediatamente: 
+
+![Texto alternativo](https://github.com/juramireza/proyecto_mlds_6/raw/master/docs/data/CorrTotal.png)
+
+Con base en el gráfico de correlación, se aprecia que existen variables altamente correlacionadas y con base en ello se proponen las siguientes estrategias: 
+
+* Entre "treat" y "trt", conservar "trt", que posee más información respecto a la otra.
+
+* Entre "strat", "srt2", "z30" y "preanti", conservar "preanti", que es una variable numérica con mayor información que las categóricas.
+
+* Entre "gender" y "homo", conservar solo la variable "gender". La variable "homo" ya mostraba sesgo. 
+
+</p>
 
 
 ## Ranking de variables

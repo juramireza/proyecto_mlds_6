@@ -105,17 +105,22 @@ Y al analizar, los Boxplot de cada variable, diferenciados por la variable objet
 
 ![Texto alternativo](https://github.com/juramireza/proyecto_mlds_6/raw/master/docs/data/Atipicos.PNG)
 
+<p align="justify">
 Entonces, se evidencia que la propoción de valores atípicos, con base en el total es baja, por ende, es viable dejarlos para el modelamiento. Entonces, se planea experimentar durante el modelamiento, con un conjunto de datos, con los valores atípicos y sin los valores atípicos. 
+</p>
+
+## Relación entre variables explicativas 
 
 <p align="justify">
-En esta sección se presenta un análisis detallado de cada variable individual. Se muestran estadísticas descriptivas, gráficos de distribución y de relación con la variable objetivo (si aplica). Además, se describen posibles transformaciones que se pueden aplicar a la variable.
+Después,  se hizo un análisis de correlación entre las variables numéricas y se construyó el gráfico de correlación que se aprecia a continuación: 
+
+![Texto alternativo](https://github.com/juramireza/proyecto_mlds_6/raw/master/docs/data/CorrNum.png)
+
 </p>
+
+
 
 ## Ranking de variables
 
 En esta sección se presenta un ranking de las variables más importantes para predecir la variable objetivo. Se utilizan técnicas como la correlación, el análisis de componentes principales (PCA) o la importancia de las variables en un modelo de aprendizaje automático.
 
-## Relación entre variables explicativas y variable objetivo
-
-En esta sección se presenta un análisis de la relación entre las variables explicativas y la variable objetivo. Se utilizan gráficos como la matriz de correlación y el diagrama de dispersión para entender mejor la relación entre las variables. Además, se pueden utilizar técnicas como la regresión lineal para modelar la relación entre las variables.
-</p>

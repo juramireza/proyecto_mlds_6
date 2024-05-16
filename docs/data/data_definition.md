@@ -62,4 +62,3 @@ Los scritps, con los que se realizó la limpieza descrita anteriormente, se empl
 
 - Script donde se llama la función de limpieza y se hace un análisis exploratorio preliminar: https://github.com/juramireza/proyecto_mlds_6/blob/master/scripts/data_acquisition/data_acquisition.ipynb
 
-

@@ -68,6 +68,25 @@ Posteriormente, se analizó la distribución de las 15 variables categóricas en
 
 ![Texto alternativo](https://github.com/juramireza/proyecto_mlds_6/raw/master/docs/data/Distribution_infected_categorical.png)
 
+A continuación, se presenta un gráfico en el que se aprecia un histograma para cada una de las variables numéricas, en este se aprecia que variables como "age" y "wtkg", tienden a tener una distribución normal, 
+
+![Texto alternativo](https://github.com/juramireza/proyecto_mlds_6/raw/master/docs/data/HistNumericalVariables.png)
+
+Para las otras variables es difícil inferir el tipo de distribución, por ende, se hizo un análisis de cada una apoyándose en estadísticos descriptivos numéricos, obteniendo que los individuos del estudio en promedio o media: 
+
+* Tienen un tiempo  879 días para el fracaso o la sensura.
+* Tienen una edad de 35 años.
+* Tienen un peso de 75 kilogramos.
+* Tienen 379 días en la terapia anti-retroviral pre-175.
+* Tienen un valor base de 350 en cd4.
+* Tienen un valor de 371 en cd4 a las 20 semanas (subió en promedio).
+* Tienen un valor base de 986 en cd8.
+* Tienen un valor de 938 en cd8 a las 20 semanas (bajó en promedio).
+
+Y en la imágen que se observa, seguidamente se validan los datos mencionados anteriormente, y adicionalmente, para cada una de las variables, se aprecian estadísticos descriptivos, como la desviación estándar, el minímo, el máximo y los cuartiles (25,50 y 75). 
+
+![Texto alternativo](https://github.com/juramireza/proyecto_mlds_6/raw/master/docs/data/NumericalStatisticians.PNG)
+
 En esta sección se presenta un análisis detallado de cada variable individual. Se muestran estadísticas descriptivas, gráficos de distribución y de relación con la variable objetivo (si aplica). Además, se describen posibles transformaciones que se pueden aplicar a la variable.
 
 

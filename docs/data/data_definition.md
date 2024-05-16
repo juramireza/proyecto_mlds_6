@@ -44,13 +44,13 @@ El conjunto de datos, contiene una variable dependiente llamada "infected", esta
 </p>
 
 <p align="justify">
-Se hizo un análisis exploratorio de los datos, y con base en este se detectaron valores atípicos en distintas variables independientes del conjunto de datos, principalmente para las observaciones, que están bajo la categoría de no infectado. Entonces, se hizo una limpieza de datos, retirando aquellas observaciones, que tienen valores atípicos en las variables del conjunto de datos y guardando el conjunto de datos en la ruta, https://github.com/juramireza/proyecto_mlds_6/blob/master/data/AIDS_cleaned.csv.dvc y el conjunto de datos con datos atípicos se encuentra en la ruta, https://github.com/juramireza/proyecto_mlds_6/blob/master/data/AIDS_Classification_filtered.csv. 
+Se hizo un análisis exploratorio de los datos, y con base en este se detectaron valores atípicos en distintas variables independientes del conjunto de datos, principalmente para las observaciones, que están bajo la categoría de no infectado. Entonces, se hizo una limpieza de datos, retirando aquellas observaciones, que tienen valores atípicos  y guardando el conjunto de datos en la ruta, https://github.com/juramireza/proyecto_mlds_6/blob/master/data/AIDS_cleaned.csv.dvc y el conjunto de datos con datos atípicos se encuentra en la ruta, https://github.com/juramireza/proyecto_mlds_6/blob/master/data/AIDS_Classification_filtered.csv. 
 
-También, se hizo un análisis de la distribución de los datos atípicos y como se envidencia en el script https://github.com/juramireza/proyecto_mlds_6/blob/master/scripts/eda/data_analysis.ipynb que la proporción de estos es baja, entonces, para la construcción del modelo, se experimenta realizando el modelo con los datos atípicos y sin los datos atípicos y comparar los resultados obtenidos.
+También, se hizo un análisis de la distribución de los datos atípicos en las variables independientes y como se envidencia en el script https://github.com/juramireza/proyecto_mlds_6/blob/master/scripts/eda/data_analysis.ipynb que la proporción de estos es baja, entonces, para la construcción del modelo, se experimenta realizando el modelo con los datos atípicos y sin los datos atípicos. Y luego se procede comparar los resultados obtenidos.
 </p>
 
 <p align="justify">
-Adicionalmente, se evidenció que existe un desbalance de clases, entre infectado y no infectado. Ya que, se tiene aproximadamente el triple de observaciones bajo la categoría de no infectado en comparación con la clase de infectado, después de hacer el filtrado de de las observaciones atípicas. Entonces, para hacer el modelammiento, se experimenta construyendo el modelo con el conjunto de datos desbalanceado y luego, sobre el conjunto de datos balanceado, aplicando alguna técnica de balanceo de datos. 
+Adicionalmente, se evidenció que existe un desbalance de clases, entre infectado y no infectado. Ya que, se tiene aproximadamente el triple de observaciones bajo la categoría de no infectado en comparación con la clase de infectado. Entonces, para hacer el modelammiento, se experimenta construyendo el modelo con el conjunto de datos desbalanceado y luego, sobre el conjunto de datos balanceado, aplicando alguna técnica de balanceo de datos. 
 
 </p>
 

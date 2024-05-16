@@ -4,9 +4,13 @@
 
 <p align="justify">
 Para la elaboración del modelo, se emplea la base de datos de Kaggle, que se encuentra en el siguiente enlace: https://www.kaggle.com/datasets/aadarshvelu/aids-virus-infection-prediction/data. El conjunto, de datos contiene información tanto clínica como sociodemográfica de pacientes, donde algunos padecen de VIH y otros no. Por ende, cuenta con los insumos suficientes para la construcción de un modelo de clasificación, que permita predecir si un paciente tiene SIDA (VIH) o no.
+</p>
 
+<p align="justify">
 El conjunto de datos, contiene una variable dependiente llamada "infected", esta sirve para diferenciar los pacientes que tienen la enfermedad de los que no y hay 22 variables independientes. Además, el conjunto de datos, tiene 2139 observaciones, es decir, pacientes.
+</p>
 
+<p align="justify">
 Los datos fueron extraídos directamente desde la url https://www.kaggle.com/datasets/aadarshvelu/aids-virus-infection-prediction/data?select=AIDS_Classification.csv de Kaggle, para esto tuvo que hacerce una conexión a la API de Kaggle, con el apoyo de una cuenta con acceso a Kaggle y un token.
 </p>
 
@@ -35,13 +39,21 @@ Para la carga de los datos y el versionamiento de estos, se hizo una conexión d
 
 ### Preprocesamiento del conjunto de datos 
 
+<p align="justify">
 El conjunto de datos, contiene una variable dependiente llamada "infected", esta sirve para diferenciar los pacientes que tienen la enfermedad de los que no y hay 22 variables independientes. Además, el conjunto de datos, tiene 2139 observaciones, es decir, pacientes. Y esta en un archivo comprimido .zip y dentro de este, hay un archivo .csv, separado por comas, además el conjunto de datos tiene un formato tabular, es decir, en filas y columnas. 
+</p>
 
+<p align="justify">
 Se hizo un análisis exploratorio de los datos, y con base en este se detectaron valores atípicos en distintas variables independientes del conjunto de datos, principalmente para las observaciones, que están bajo la categoría de no infectado. Entonces, se hizo una limpieza de datos, retirando aquellas observaciones, que tienen valores atípicos en las variables del conjunto de datos y guardando el conjunto de datos en la ruta, https://github.com/juramireza/proyecto_mlds_6/blob/master/data/AIDS_Classification_filtered.csv y el original en la ruta, https://github.com/juramireza/proyecto_mlds_6/blob/master/data/AIDS_Classification.csv . También, si hizo un análisis de la distribución de los datos atípicos y como se envidencia en el script https://github.com/juramireza/proyecto_mlds_6/blob/master/scripts/eda/data_analysis.ipynb la proporción de estos es baja, entonces, para la construcción del modelo, se va a experimentar realizando el modelo con los datos atípicos y sin los datos atípicos y comparar los resultados obtenidos, dada la baja proporción de outliers, se esperaría que los resultados en ambos casos sean muy similares. 
+</p>
 
+<p align="justify">
 Adicionalmente, se evidenció que existe un desbalance de clases, entre infectado y no infectado. Ya que, se tiene aproximadamente el triple de observaciones bajo la categoría de no infectado en comparación con la clase de infectado, después de hacer el filtrado de de las observaciones atípicas. 
+</p>
 
+<p align="justify">
 Los scritps, con los que se realizó la limpieza descrita anteriormente, se emplearon los scripts, que se encuentran en las siguientes rutas: 
+</p>
 
 - Script con la función de limpieza: https://github.com/juramireza/proyecto_mlds_6/blob/master/scripts/eda/limpieza.py
 

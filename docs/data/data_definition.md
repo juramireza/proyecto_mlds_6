@@ -58,7 +58,7 @@ Adicionalmente, se evidenció que existe un desbalance de clases, entre infectad
 Los scritps, con los que se realizó la limpieza descrita anteriormente, se emplearon los scripts, que se encuentran en las siguientes rutas: 
 </p>
 
-- Script con la función de limpieza: https://github.com/juramireza/proyecto_mlds_6/blob/master/scripts/eda/limpieza.py
+- Script con la función de limpieza: https://github.com/juramireza/proyecto_mlds_6/blob/master/scripts/preprocessing/limpieza.py
 
-- Script donde se llama la función de limpieza y se hace un análisis exploratorio preliminar: https://github.com/juramireza/proyecto_mlds_6/blob/master/scripts/data_acquisition/data_acquisition.ipynb
+- Script donde se llama la función de limpieza y se hace un análisis exploratorio preliminar: https://github.com/juramireza/proyecto_mlds_6/blob/master/scripts/preprocessing/limpieza_datos_vf.ipynb
 

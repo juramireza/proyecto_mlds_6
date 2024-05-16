@@ -46,6 +46,7 @@ También es importante analizar la variable infected, ya que, es la variable dep
 
 A continuación, se presenta un gráfico que permite apreciar la distribución de la variable infected, y se observa que, estamos frente a un conjunto de datos desbalanceado, ya que, aproximadamente el 25 % de los pacientes están infectados y el otro 75 %, no lo esta. Entonces, para cuando se vaya a realizar el modelo, se deben aplicar técnicas de balanceo o realizar un muestreo, con el fin de obtener un conjunto de datos balanceado, dado que el conjunto de datos es relativamente pequeño 2139 observaciones, es viable inclinarse, por la opción de aplicar una técnica para balancear el conjunto de datos, es decir, para igual el número de observaciones de pacientes infectados y no infectados. 
 
+![Texto alternativo](https://github.com/juramireza/proyecto_mlds_6/raw/master/docs/data/Distribution_Infected.png)
 
 ## Variables individuales
 

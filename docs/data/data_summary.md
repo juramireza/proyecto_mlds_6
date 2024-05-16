@@ -132,8 +132,31 @@ Con base en el gráfico de correlación, se aprecia que existen variables altame
 
 </p>
 
-
 ## Ranking de variables
 
-En esta sección se presenta un ranking de las variables más importantes para predecir la variable objetivo. Se utilizan técnicas como la correlación, el análisis de componentes principales (PCA) o la importancia de las variables en un modelo de aprendizaje automático.
+Después de aplicar las estrategias, mencionadas en el apartado anterior, se procedió nuevamente a realizar el gráfico de correlación y se obtuvieron los siguientes resultados:
+
+![Texto alternativo](https://github.com/juramireza/proyecto_mlds_6/raw/master/docs/data/CorrFinal.png.png)
+
+Y con base, en el diagrama final de correlación se construye la siguiente tabla, en la que se aprecia un ranking de importancia de las variables independientes para predecir la variable dependiente infected, con base en le valor absoluto de la correlación de esta, con las otras variables. 
+
+| Variable | Valor absoluto de la correlación con infected | Ranking | 
+| --- | --- | --- | 
+| time | Tiempo para el fracaso o la censura | int |
+| trt | Indicador de tratamiento | int | 
+| trt | Indicador de tratamiento | int | 
+| trt | Indicador de tratamiento | int | 
+| trt | Indicador de tratamiento | int | 
+| trt | Indicador de tratamiento | int | 
+| trt | Indicador de tratamiento | int | 
+| trt | Indicador de tratamiento | int | 
+| trt | Indicador de tratamiento | int | 
+| trt | Indicador de tratamiento | int | 
+| trt | Indicador de tratamiento | int | 
+| trt | Indicador de tratamiento | int | 
+| trt | Indicador de tratamiento | int | 
+| trt | Indicador de tratamiento | int | 
+| trt | Indicador de tratamiento | int | 
+
+
 

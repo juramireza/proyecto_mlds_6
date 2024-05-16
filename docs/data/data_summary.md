@@ -136,27 +136,26 @@ Con base en el gráfico de correlación, se aprecia que existen variables altame
 
 Después de aplicar las estrategias, mencionadas en el apartado anterior, se procedió nuevamente a realizar el gráfico de correlación y se obtuvieron los siguientes resultados:
 
-![Texto alternativo](https://github.com/juramireza/proyecto_mlds_6/raw/master/docs/data/CorrFinal.png.png)
+![Texto alternativo](https://github.com/juramireza/proyecto_mlds_6/raw/master/docs/data/CorrFinal.png)
 
 Y con base, en el diagrama final de correlación se construye la siguiente tabla, en la que se aprecia un ranking de importancia de las variables independientes para predecir la variable dependiente infected, con base en le valor absoluto de la correlación de esta, con las otras variables. 
 
 | Variable | Valor absoluto de la correlación con infected | Ranking | 
 | --- | --- | --- | 
-| time | Tiempo para el fracaso o la censura | int |
-| trt | Indicador de tratamiento | int | 
-| trt | Indicador de tratamiento | int | 
-| trt | Indicador de tratamiento | int | 
-| trt | Indicador de tratamiento | int | 
-| trt | Indicador de tratamiento | int | 
-| trt | Indicador de tratamiento | int | 
-| trt | Indicador de tratamiento | int | 
-| trt | Indicador de tratamiento | int | 
-| trt | Indicador de tratamiento | int | 
-| trt | Indicador de tratamiento | int | 
-| trt | Indicador de tratamiento | int | 
-| trt | Indicador de tratamiento | int | 
-| trt | Indicador de tratamiento | int | 
-| trt | Indicador de tratamiento | int | 
+| time | 0.57 | 1 |
+| dif_cd4 | 0.23 | 2 | 
+| preanti | 0.13| 3 | 
+| symptom | 0.13 | 4 | 
+| treat | 0.13 | 5 | 
+| karnof | 0.1 | 6 | 
+| offtrt | 0.09 | 7 | 
+| age | 0.07 | 8 | 
+| dif_cd8 |0.07 | 9| 
+| race | 0.06 | 10 | 
+| drugs | 0.05 | 11 | 
+| gender | 0.05 | 12 | 
+| wtkg | 0.02 | 13 | 
+| hemo |0.01  | 14| 
 
 
 

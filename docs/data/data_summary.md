@@ -83,12 +83,20 @@ Para las otras variables es difícil inferir el tipo de distribución, por ende,
 * Tienen un valor base de 986 en cd8.
 * Tienen un valor de 938 en cd8 a las 20 semanas (bajó en promedio).
 
-Y en la imágen que se observa, seguidamente se validan los datos mencionados anteriormente, y adicionalmente, para cada una de las variables, se aprecian estadísticos descriptivos, como la desviación estándar, el minímo, el máximo y los cuartiles (25,50 y 75). 
+Y en la imágen que se observa, seguidamente se validan los datos mencionados anteriormente, y adicionalmente, para cada una de las variables, se aprecian estadísticos descriptivos, como la desviación estándar, el minímo, el máximo y los cuartiles (25, 50 y 75). 
 
 ![Texto alternativo](https://github.com/juramireza/proyecto_mlds_6/raw/master/docs/data/NumericalStatisticians.PNG)
 
-En esta sección se presenta un análisis detallado de cada variable individual. Se muestran estadísticas descriptivas, gráficos de distribución y de relación con la variable objetivo (si aplica). Además, se describen posibles transformaciones que se pueden aplicar a la variable.
+Posteriormente, se realizó un gráfico en el que se muestran los histogramas de cada variables numérica, diferenciando por la variable "infected", es decir, la variable objetivo. Y también se construyeron, diagramas de caja y bigotes, para revisar los datos atípicos en cada una de las variables y diferenciando por cada clase. Consecutivamente, se presentan estos dos gráficos. 
 
+![Texto alternativo](https://github.com/juramireza/proyecto_mlds_6/raw/master/docs/data/HistInfected.png)
+
+![Texto alternativo](https://github.com/juramireza/proyecto_mlds_6/raw/master/docs/data/BoxPlotInfected.png)
+
+
+
+
+En esta sección se presenta un análisis detallado de cada variable individual. Se muestran estadísticas descriptivas, gráficos de distribución y de relación con la variable objetivo (si aplica). Además, se describen posibles transformaciones que se pueden aplicar a la variable.
 
 ## Ranking de variables
 

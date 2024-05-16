@@ -19,7 +19,8 @@ Con base en el análisis realizado se encontró que:
 
 1. Ninguna de las variables tiene valores faltantes.
 2. No se tienen observaciones repetidas. 
-3. Se realizó un gráfico para revisar el número de observaciones por cada categoría en las variables trt, hemo, homo, drugs, karnof, oprior, z30, race, gender, str2,strat, symptom, treat, offtrt e infected. 
+3. Las variables, no contienen valores faltantes. 
+4. Se realizó un gráfico para revisar el número de observaciones por cada categoría en las variables trt, hemo, homo, drugs, karnof, oprior, z30, race, gender, str2,strat, symptom, treat, offtrt e infected. 
 
 ![Texto alternativo](https://github.com/juramireza/proyecto_mlds_6/raw/master/docs/data/CountCategories.png)
 
@@ -41,7 +42,7 @@ El gráfico del conteo de observaciones por categoría en cada una de las variab
 
 </p>
 
-4. Las variables, no contienen valores faltantes. 
+
 
 
 

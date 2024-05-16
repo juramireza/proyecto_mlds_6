@@ -39,14 +39,12 @@ El gráfico del conteo de observaciones por categoría en cada una de las variab
 * No tiene indicador de off-trt antes de 96 +/- 5 semanas.
 * No está infectado con SIDA.
 
-También, es importante analizar la distribución de la variable infected, 
-Tengo un especial interés en la variable de infectados, pues será la variable objetivo en los modelos de aprendizaje de máquina que se quieren implementar posteriormente. Miro con más detalle su distribución.
-
 </p>
 
-En esta sección se presenta un resumen de la calidad de los datos. Se describe la cantidad y porcentaje de valores faltantes, valores extremos, errores y duplicados. También se muestran las acciones tomadas para abordar estos problemas.
+4. Las variables, no contienen valores faltantes. 
 
-</p>
+
+
 ## Variable objetivo
 
 En esta sección se describe la variable objetivo. Se muestra la distribución de la variable y se presentan gráficos que permiten entender mejor su comportamiento.

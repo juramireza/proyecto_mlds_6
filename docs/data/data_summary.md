@@ -62,11 +62,14 @@ A continuación, se presenta un gráfico que permite apreciar la distribución d
 
 ## Variables individuales
 
+<p align="justify">
 Posteriormente, se analizó la distribución de las 15 variables categóricas en función de la variable objetivo (infected) como se muestra en el gráfico a continuación, en este, se aprecia que variables como oprior y homo, tienen la mayoría de las observaciones, en una sola categoría, principalmente la variable oprior, donde el 97.8 % de las observaciones del conjunto de datos, estan en la categoría de cero, por ende, esta sería una variable candidata a eliminar para hacer el modelamiento. 
+</p>
 
 ![Texto alternativo](https://github.com/juramireza/proyecto_mlds_6/raw/master/docs/data/Distribution_infected_categorical.png)
 
 En esta sección se presenta un análisis detallado de cada variable individual. Se muestran estadísticas descriptivas, gráficos de distribución y de relación con la variable objetivo (si aplica). Además, se describen posibles transformaciones que se pueden aplicar a la variable.
+
 
 ## Ranking de variables
 

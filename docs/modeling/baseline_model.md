@@ -30,7 +30,11 @@ El archivo original contiene 2139 entradas. Se realizó la separación en datos 
 
 ### Métricas de evaluación
 
-Descripción de las métricas utilizadas para evaluar el rendimiento del modelo.
+En los modelos empleados se observó el comportamiento de dos métricas apropiadas para clasificación binaria:
+- Exactitud: mide cuantitativamente cuantas predicciones fueron correctas.
+- F1: es el promedio ponderado entre la precisión y el *recall*.
+  - Precisión: es la habilidad del clasificador de no clasificar una muestra como positiva cuando es negativa.
+  - *Recall*: es la capacidad del clasificador de encontrar todas las muestras positivas.
 
 ### Resultados de evaluación
 
@@ -49,6 +53,4 @@ Se pueden desarrollar otros modelos para mejorar el resultado acá encontrado.
 
 ## Referencias
 
-Lista de referencias utilizadas para construir el modelo baseline y evaluar su rendimiento.
-
-Espero que te sea útil esta plantilla. Recuerda que puedes adaptarla a las necesidades específicas de tu proyecto.
+[Regresión logística en SciKitLearn](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html).

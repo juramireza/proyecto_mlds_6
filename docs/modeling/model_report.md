@@ -54,6 +54,49 @@ A continuación, se presenta la matriz de confusión del mejor modelo obtenido, 
 
 ![Texto alternativo](https://github.com/juramireza/proyecto_mlds_6/blob/master/mlruns/svm_/5d5755ad623048c192007bad0d5fe420/artifacts/confusion_matrix/confusion_matrix.png)
 
+De la matriz de consfusión es importante tener en cuenta lo siguiente: 
+
+- VP : Verdaderos positivos, es decir, son los pacientes que tienen VIH y el modelo predijo correctamente que poseen el virus. Con base en la matriz de confusión se obtuvo un valor 106 pacientes. 
+
+- VN : Verdaderos negativos, es decir, son pacientes que no tienen VIH y le modelo predijo correctamente que no tienen el virus. Con base en la matriz de confusión se obtuvo un valor de 360 pacientes. 
+
+- FP: Falsos positivos, es decir, son pacientes que no tienen el virus, pero el modelo dice que si lo tienen. Con base en la matriz de confusión se obtuvo un valor de 51 pacientes. 
+
+-FN: Falsos negativos, es decir, son pacientes que tienen el virus, pero el modelo predijo que no lo tienen. Con base en la matriz de confusión se obtuvo un valor de 18 pacientes. 
+
+Con base en la matriz de confusión, se calculan las siguientes métricas:
+
+<p align="justify">
+
+- Exactitud (Accuracy): Indica la cantidad de observaciones que fueron clasificadas correctamente por el modelo. Para esta métrica se obtuvo un valor de 0.86, ya que, 462 observaciones se clasificaron bien en relación con un total de 535, que fue el conjunto de pacientes utilizado para la realizar las pruebas sobre el modelo, en datos con los que no había sido entrenado. 
+
+</p>
+
+<p align="justify">
+- Precisión (Precision): Para esta métrica, se obtiene un valor de 0.68, lo que es un valor no tan satisfactorio, esta métrica es la división entre los VP y la suma de los VP con los FP. Entonces, la métrica baja porque se tiene un valor alto de FP (51). Entonces, el modelo esta clasificando bastantes pacientes, que no tienen el virus como si lo tuvieran. 
+
+</p>
+
+<p align="justify">
+
+- Sensibilidad (Recall): Para esta métrica, se obtiene un valor de 0.85, lo que es un valor bastante bueno, esta métrica es el cociente entre los VP y la suma de los VP con los FN. Entonces, la métrica es alta porque se tiene un valor bajo de FN (18). Es decir, solamente hay 18 pacientes, que realmente tienen el virus del VIH y el modelo predijo, que eran pacientes sanos. 
+
+</p>
+
+<p align="justify">
+- F1-Score: es una métrica, que sirve para evaluar precisión y sensibilidad juntas. Y se obtuvo un valor de 0.75.
+</p>
+
+<p align="justify">
+Para evaluar los modelos, se utilizó el F1-Score, con el fin de buscar el modelo que mejor equilibrio logrará entre precisión y sensibilidad, siendo el modelo elaborado con bosques aleatorios y con un F1-Score de 0.75.
+
+</p>
+
+<p align="justify">
+Aunque es bueno mencionar, que dependiendo del contexto y la necesidad, sería viable inclinarse por otra métrica, por ejemplo, para este caso, es posible que al hablar con personas de negocio, ellos comenten, que para ellos tener bajos valores de presicion, es decir que el modelo calsifique pacientes, que no tienen el virus como si lo tuvieran, no es grave para el proceso. Que lo crítico es que el modelo clasifique pacientes que tienen el virus, en la categoría de que no lo tienen. Por ende, bajo esta premisa la métrica para
+evaluar los modelos debe ser la sensibilidad, aunque se pierda presicion. 
+</p>
+
 ## Conclusiones 
 
 <p align="justify">

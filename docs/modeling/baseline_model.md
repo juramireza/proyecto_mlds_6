@@ -63,7 +63,7 @@ La exactitud del modelo del modelo es de 0.84, que es un valor que a primera vis
 
 - Con el algoritmo de regresión logística, se consiguen resultados consistentes, aunque con oportunidad de mejora, ya que, el valor del F1-Score es relativamente bajo (0.69).
 
-##Recomendaciones 
+## Recomendaciones 
 
 A continuación, se presentan algunas sugerencias, con el fin de construir un modelo que consiga mejores resultados: 
 

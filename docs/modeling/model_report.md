@@ -7,6 +7,7 @@ En esta sección se presenta un resumen de los resultados obtenidos con el mejor
 </p>
 
 <p align="justify">
+
 El clasificador de bosques aleatorios consiste en una colección de árboles de decisión entrenados en muestras distintas que realizan una "votación" para elegir la clasificación más favorable. La cantidad de árboles que se entrenan se define con el hiperparámetro "n_estimators", y se pueden configurar los hiperparámetros de estos árboles, como por ejemplo la cantidad máxima de características a considerar con "max_features". (Tomado del material de estudio de módulo 2).
 
 </p>
@@ -49,7 +50,9 @@ Se construyó un modelo de clasificación binaria y para su elaboración se sigu
 
 ## Evaluación del Modelo
 
-En esta sección se presentará una evaluación detallada del modelo final. Se deben incluir las métricas de evaluación que se utilizaron y una interpretación detallada de los resultados.
+A continuación, se presenta la matriz de confusión del mejor modelo obtenido, que fue el que se logró, con el algoritmo de bosques aleatorios:
+
+![Texto alternativo](https://github.com/juramireza/proyecto_mlds_6/blob/master/mlruns/svm_/5d5755ad623048c192007bad0d5fe420/artifacts/confusion_matrix/confusion_matrix.png)
 
 ## Conclusiones 
 
@@ -61,6 +64,7 @@ En esta sección se presentará una evaluación detallada del modelo final. Se d
 <p align="justify">
 
 - Es viable utilizar el modelo construído, como un sistema de priorización, es decir, las entidades cuidadoras de salud, pueden estar corriendo este modelo, sobre los pacientes de los que tengan la información clínica y sociodemográfica, con el fin de que si alguien reporta una alta probabilidad de tener el virus del SIDA (VIH), se le hagan otros estudios con prontitud, para validar si efectivamente tienen la enferemdad o no. En conclusión, es viable usar el modelo con una herramienta de priorización y salud preventiva, más no puede ser empleada como una herramienta que diagnóstique la enfermadad y sea la última palabra. 
+
 </p>
 
 ## Recomendaciones

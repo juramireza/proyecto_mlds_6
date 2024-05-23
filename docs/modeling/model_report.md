@@ -2,11 +2,23 @@
 
 ## Resumen Ejecutivo
 
-En esta sección se presentará un resumen de los resultados obtenidos del modelo final. Es importante incluir los resultados de las métricas de evaluación y la interpretación de los mismos.
+En esta sección se presenta un resumen de los resultados obtenidos con el mejor modelo, que fue el que su obtuvo de la aplicación del algoritmo de bosques aleatorios (Random forest). 
+
+El clasificador de bosques aleatorios consiste en una colección de árboles de decisión entrenados en muestras distintas que realizan una "votación" para elegir la clasificación más favorable. La cantidad de árboles que se entrenan se define con el hiperparámetro ```n_estimators```, y se pueden configurar los hiperparámetros de estos árboles, como por ejemplo la cantidad máxima de características a considerar con ```max_features```. (Tomado del material de estudio de módulo 2).
 
 ## Descripción del Problema
 
-En esta sección se describirá el problema que se buscó resolver con el modelo final. Se debe incluir una descripción detallada del problema, el contexto en el que se desarrolla, los objetivos que se persiguen y la justificación del modelo.
+<p align="justify">
+La detección temprana del VIH sigue siendo un desafío en muchas áreas, particularmente donde los recursos son limitados. Un diagnóstico temprano es crucial para mejorar los resultados del tratamiento y reducir la transmisión del virus.
+</p>
+
+<p align="justify">
+Los métodos tradicionales para diagnosticar el VIH pueden ser costosos, invasivos y requerir infraestructura de laboratorio, lo que no siempre está disponible en regiones con recursos limitados. Con base, en lo descrito surge la necesidad de buscar alternativas menos costosas, por esto se plantea la opción de utilizar modelos de machine learning, para realizar el diagnóstico del SIDA (VIH) en pacientes.
+</p>
+
+<p align="justify">
+Entonces, con este proyecto se buscaba construir un modelo, que basándose tanto en información clínica como socio demográfica, permita predecir si un paciente tiene el virus del VIH (SIDA o no). Entonces, como la cuestión a resolver consiste en determinar si un paciente pertenece a la categoría de los que tienen VIH (SIDA) o no pertenece a esta clase, entonces, el problema a resolver, era de clasificación binaria, por ende, los esfuerzos se centraron en construir un modelo de clasificación utilizando distintos algoritmos como la regresión logística, los bosques aleatorios, las máquinas de soporte vectorial o el el algoritmo de los vecinos más cercanos. 
+</p>
 
 ## Descripción del Modelo
 
@@ -22,4 +34,5 @@ En esta sección se presentarán las conclusiones y recomendaciones a partir de 
 
 ## Referencias
 
-En esta sección se deben incluir las referencias bibliográficas y fuentes de información utilizadas en el desarrollo del modelo.
+[Bosque aleatrorio en SciKitLearn](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
+

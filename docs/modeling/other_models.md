@@ -111,7 +111,7 @@ A continuación, se presentan algunas sugerencias, con el fin de construir un mo
 [Regresión logística en SciKitLearn](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html).
 
 
-[svm](https://scikit-learn.org/stable/modules/svm.html).
+[SVM](https://scikit-learn.org/stable/modules/svm.html).
 
 [k-NN](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html).
 

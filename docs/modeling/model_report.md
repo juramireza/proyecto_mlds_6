@@ -2,9 +2,14 @@
 
 ## Resumen Ejecutivo
 
+<p align="justify">
 En esta sección se presenta un resumen de los resultados obtenidos con el mejor modelo, que fue el que su obtuvo de la aplicación del algoritmo de bosques aleatorios (Random forest). 
+</p>
 
+<p align="justify">
 El clasificador de bosques aleatorios consiste en una colección de árboles de decisión entrenados en muestras distintas que realizan una "votación" para elegir la clasificación más favorable. La cantidad de árboles que se entrenan se define con el hiperparámetro ```n_estimators```, y se pueden configurar los hiperparámetros de estos árboles, como por ejemplo la cantidad máxima de características a considerar con ```max_features```. (Tomado del material de estudio de módulo 2).
+
+</p>
 
 ## Descripción del Problema
 

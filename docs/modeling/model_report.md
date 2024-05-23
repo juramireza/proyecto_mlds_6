@@ -62,7 +62,7 @@ De la matriz de consfusión es importante tener en cuenta lo siguiente:
 
 - FP: Falsos positivos, es decir, son pacientes que no tienen el virus, pero el modelo dice que si lo tienen. Con base en la matriz de confusión se obtuvo un valor de 51 pacientes. 
 
--FN: Falsos negativos, es decir, son pacientes que tienen el virus, pero el modelo predijo que no lo tienen. Con base en la matriz de confusión se obtuvo un valor de 18 pacientes. 
+- FN: Falsos negativos, es decir, son pacientes que tienen el virus, pero el modelo predijo que no lo tienen. Con base en la matriz de confusión se obtuvo un valor de 18 pacientes. 
 
 Con base en la matriz de confusión, se calculan las siguientes métricas:
 
@@ -84,6 +84,7 @@ Con base en la matriz de confusión, se calculan las siguientes métricas:
 </p>
 
 <p align="justify">
+
 - F1-Score: es una métrica, que sirve para evaluar precisión y sensibilidad juntas. Y se obtuvo un valor de 0.75.
 </p>
 

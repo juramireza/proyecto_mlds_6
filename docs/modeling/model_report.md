@@ -45,7 +45,7 @@ Se construyó un modelo de clasificación binaria y para su elaboración se sigu
 </p>
 
 <p align="justify">
-5. Por último, se evaluaron los modelos, con base en la matriz de confusión y las métricas de exactitud y F1-Score. 
+5. Por último, se evaluaron los modelos, con base tanto en la matriz de confusión como la métrica de exactitud y F1-Score. 
 </p>
 
 ## Evaluación del Modelo

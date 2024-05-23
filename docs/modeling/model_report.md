@@ -109,7 +109,7 @@ evaluar los modelos debe ser la sensibilidad, aunque se pierda presicion.
 
 <p align="justify">
 
-- Es viable utilizar el modelo construído, como un sistema de priorización, es decir, las entidades cuidadoras de salud, pueden estar corriendo este modelo, sobre los pacientes de los que tengan la información clínica y sociodemográfica, con el fin de que si alguien reporta una alta probabilidad de tener el virus del SIDA (VIH), se le hagan otros estudios con prontitud, para validar si efectivamente tienen la enferemdad o no. En conclusión, es viable usar el modelo con una herramienta de priorización y salud preventiva, más no puede ser empleada como una herramienta que diagnóstique la enfermadad y sea la última palabra. 
+- Es viable utilizar el modelo construído, como un sistema de priorización, es decir, las entidades cuidadoras de salud, pueden estar corriendo este modelo, sobre los pacientes de los que tengan la información clínica y sociodemográfica, con el fin de que si alguien reporta una alta probabilidad de tener el virus del SIDA (VIH), se le hagan otros estudios con prontitud, para validar si efectivamente tienen la enfermedad o no. En conclusión, es viable usar el modelo con una herramienta de priorización y salud preventiva, más no puede ser empleada como una herramienta que diagnóstique la enfermadad y sea la última palabra. 
 
 </p>
 

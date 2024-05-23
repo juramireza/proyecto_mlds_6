@@ -27,7 +27,25 @@ Entonces, con este proyecto se buscaba construir un modelo, que basándose tanto
 
 ## Descripción del Modelo
 
-En esta sección se describirá el modelo final que se desarrolló para resolver el problema planteado. Se debe incluir una descripción detallada del modelo, la metodología utilizada y las técnicas empleadas.
+<p align="justify">
+Se construyó un modelo de clasificación binaria y para su elaboración se siguieron los siguientes pasos: 
+</p>
+
+<p align="justify">
+1. Se realizó un análisis exploratorio de los datos, para determinar que variables eran importantes para el modelo y con base en este, se hizo la extracción de características, es decir, se le dio tratamiento a las variables según su tipo, antes de ser ingresadas al modelo. 
+</p>
+
+<p align="justify">
+2. Se identificó, que el conjunto de datos, estaba desbalanceado, por ende, se aplico la técnica SMOTE, con el fin de obtener un conjunto de datos, donde el número de observaciones para ambas clases, estuviese equitativamente distribuido. 
+</p>
+
+<p align="justify">
+4. Se realizaron varios experimentos, combinando tanto distintos algoritmos, como varias configuraciones de hiperparámetros haciendo uso de herramientas como mlflow y optuna.
+</p>
+
+<p align="justify">
+5. Por último, se evaluaron los modelos, con base en la matriz de confusión y las métricas de exactitud y F1-Score. 
+</p>
 
 ## Evaluación del Modelo
 
@@ -35,8 +53,13 @@ En esta sección se presentará una evaluación detallada del modelo final. Se d
 
 ## Conclusiones 
 
-En esta sección se presentarán las conclusiones y recomendaciones a partir de los resultados obtenidos. Se deben incluir los puntos fuertes y débiles del modelo, las limitaciones y los posibles escenarios de aplicación.
+<p align="justify">
+- Con el algoritmo de bosques aleatorios, se consiguen los mejores resultados. Ya que, con este se consiguen los valores más altos tanto de Exactitud (0.87) como de F1 Score (0.75), después se tiene el modelo construido con el algoritmo de SVM, con una Exactitud de 0.86 y un F1 Score de 0.72, luego esta el modelo elaborado con el algoritmo de regresión logística con una Exactitud de 0.84 y un F1 Score de 0.69. Y por último, siendo el modelo con peores métricas, se encuentra el que se desarrollo con el algoritmo de k-NN, con una Exactitud de 0.83 y un F1 Score de 0.67. 
+</p>
 
+<p align="justify">
+- Es viable utilizar el modelo construído, como un sistema de priorización, es decir, las entidades cuidadoras de salud, pueden estar corriendo este modelo, sobre los pacientes de los que tengan la información clínica y sociodemográfica, con el fin de que si alguien reporta una alta probabilidad de tener el virus del SIDA (VIH), se le hagan otros estudios con prontitud, para validar si efectivamente tienen la enferemdad o no. En conclusión, es viable usar el modelo con una herramienta de priorización y salud preventiva, más no puede ser empleada como una herramienta que diagnóstique la enfermadad y sea la última palabra. 
+</p>
 ## Recomendaciones
 A continuación, se presentan algunas sugerencias, con el fin de construir un modelo que consiga mejores resultados: 
 

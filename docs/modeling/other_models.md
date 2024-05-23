@@ -98,7 +98,7 @@ Por último, el modelo construído con el algoritmo de regresión logística reg
 
 A continuación, se presentan algunas sugerencias, con el fin de construir un modelo que consiga mejores resultados: 
 
-- Experimentar con algoritmos diferentes al de la regresión logística. 
+- Experimentar con algoritmos diferentes a los utilizados en este proyecto.
 - Revisar aquellas observaciones que están siendo mal clasificadas e intentar comprender esto porque sucede. 
 - Iterar en el proceso completo, es decir revisar el análisis exploratorio y ver que variables valdría la pena incluir y que variables, es mejor excluir. 
 - En caso de ser viable, conseguir más observaciones con el fin de aumentar el conjunto de datos. 

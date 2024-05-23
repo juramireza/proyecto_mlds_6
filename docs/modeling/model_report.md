@@ -33,10 +33,18 @@ En esta sección se describirá el modelo final que se desarrolló para resolver
 
 En esta sección se presentará una evaluación detallada del modelo final. Se deben incluir las métricas de evaluación que se utilizaron y una interpretación detallada de los resultados.
 
-## Conclusiones y Recomendaciones
+## Conclusiones 
 
 En esta sección se presentarán las conclusiones y recomendaciones a partir de los resultados obtenidos. Se deben incluir los puntos fuertes y débiles del modelo, las limitaciones y los posibles escenarios de aplicación.
 
+## Recomendaciones
+A continuación, se presentan algunas sugerencias, con el fin de construir un modelo que consiga mejores resultados: 
+
+- Experimentar con algoritmos diferentes a los utilizados en este proyecto
+- Revisar aquellas observaciones que están siendo mal clasificadas e intentar comprender esto porque sucede. 
+- Iterar en el proceso completo, es decir revisar el análisis exploratorio y ver que variables valdría la pena incluir y que variables, es mejor excluir. 
+- En caso de ser viable, conseguir más observaciones con el fin de aumentar el conjunto de datos. 
+- Si existe la posibilidad, explorar nuevas variables. 
 ## Referencias
 
 [Bosque aleatrorio en SciKitLearn](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)

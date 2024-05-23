@@ -50,7 +50,8 @@ Las máquinas de soporte vectorial (SVM) son algoritmos de clasificación que en
 <p align="justify">
 El algoritmo k-NN (k-Nearest Neighbors) clasifica una observación basándose en las clases de sus k vecinos más cercanos en el espacio de características.
 </p>
-### Métricas de evaluación
+
+## Métricas de evaluación
 
 <p align="justify">
 En los modelos empleados se observó el comportamiento de dos métricas apropiadas para clasificación binaria:
@@ -74,23 +75,41 @@ En los modelos empleados se observó el comportamiento de dos métricas apropiad
 ## Análisis de los resultados
 
 <p align="justify">
-Con el algoritmo de bosques aleatorios, se consiguen los mejores resultados. Ya que, con este se consiguen los valores más altos tanto de *Exactitud (0.87)* como de *F1 Score (0.75). Esto, significa que es el modelo, que más observaciones ha conseguido clasificar correctamente y el que logra un mejor balance entre precisión y exhaustividad.
+Con el algoritmo de bosques aleatorios, se consiguen los mejores resultados. Ya que, con este se consiguen los valores más altos tanto de Exactitud (0.87) como de F1 Score (0.75). Esto, significa que es el modelo, que más observaciones ha conseguido clasificar correctamente y el que logra un mejor balance entre precisión y exhaustividad.
 </p>
 
 <p align="justify">
-El algoritmo de máquinas de soporte vectorial, arroja resultados inferiores que el de Bosques Alatorios, con una *Exactitud de 0.86 y un *F1 Score de 0.72*. Pero, con estas métricas tiene mejor desempeño, que los modelos obtenidos con los algoritmos de k-NN y Regresión logística. 
+El algoritmo de máquinas de soporte vectorial, arroja resultados inferiores que el de Bosques Alatorios, con una Exactitud de 0.86 y un F1 Score de 0.72. Pero, con estas métricas tiene mejor desempeño, que los modelos obtenidos con los algoritmos de k-NN y Regresión logística. 
 
 <p align="justify">
-Por último, el modelo construído con el algoritmo de regresión logística registro una *Exactitud de 0.84* y un *F1 Score de 0.69*, métricas inferiores a las obtenidas tanto con Bosques aleatorios como con SVM, pero superiores a las que se lograrron al aplicar el algoritmo de k-NN. Es decir, el modelo con las peores métricas fue el elaborado con el algoritmo de k-NN, con una *Exactitud de 0.83* y un *F1 Score de 0.67*
+Por último, el modelo construído con el algoritmo de regresión logística registro una Exactitud de 0.84 y un F1 Score de 0.69, métricas inferiores a las obtenidas tanto con Bosques aleatorios como con SVM, pero superiores a las que se lograron al aplicar el algoritmo de k-NN. Es decir, el modelo con las peores métricas fue este, con una Exactitud de 0.83 y un F1 Score de 0.67.
 </p>
 
 
 ## Conclusiones
 
-Se pueden desarrollar otros modelos para mejorar el resultado acá encontrado.
+<p align="justify">
+- Con el algoritmo de bosques aleatorios, se consiguen los mejores resultados. Ya que, con este se consiguen los valores más altos tanto de Exactitud (0.87) como de F1 Score (0.75), después se tiene el modelo construido con el algoritmo de SVM, con una Exactitud de 0.86 y un F1 Score de 0.72, luego esta el modelo elaborado con el algoritmo de regresión logística con una Exactitud de 0.84 y un F1 Score de 0.69. Y por último, siendo el modelo con peores métricas, se encuentra el que se desarrollo con el algoritmo de k-NN, con una Exactitud de 0.83 y un F1 Score de 0.67. 
+</p>
+
+##Recomendaciones 
+
+A continuación, se presentan algunas sugerencias, con el fin de construir un modelo que consiga mejores resultados: 
+
+- Experimentar con algoritmos diferentes al de la regresión logística. 
+- Revisar aquellas observaciones que están siendo mal clasificadas e intentar comprender esto porque sucede. 
+- Iterar en el proceso completo, es decir revisar el análisis exploratorio y ver que variables valdría la pena incluir y que variables, es mejor excluir. 
+- En caso de ser viable, conseguir más observaciones con el fin de aumentar el conjunto de datos. 
+- Si existe la posibilidad, explorar nuevas variables. 
 
 ## Referencias
 
 [Bosque aleatrorio en SciKitLearn](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
 
+[Regresión logística en SciKitLearn](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html).
+
+
+[svm](https://scikit-learn.org/stable/modules/svm.html).
+
+[k-NN](https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html).
 

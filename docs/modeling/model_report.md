@@ -73,6 +73,7 @@ Con base en la matriz de confusión, se calculan las siguientes métricas:
 </p>
 
 <p align="justify">
+
 - Precisión (Precision): Para esta métrica, se obtiene un valor de 0.68, lo que es un valor no tan satisfactorio, esta métrica es la división entre los VP y la suma de los VP con los FP. Entonces, la métrica baja porque se tiene un valor alto de FP (51). Entonces, el modelo esta clasificando bastantes pacientes, que no tienen el virus como si lo tuvieran. 
 
 </p>
@@ -103,6 +104,7 @@ evaluar los modelos debe ser la sensibilidad, aunque se pierda presicion.
 <p align="justify">
 
 - Con el algoritmo de bosques aleatorios, se consiguen los mejores resultados. Ya que, con este se consiguen los valores más altos tanto de Exactitud (0.87) como de F1 Score (0.75), después se tiene el modelo construido con el algoritmo de SVM, con una Exactitud de 0.86 y un F1 Score de 0.72, luego esta el modelo elaborado con el algoritmo de regresión logística con una Exactitud de 0.84 y un F1 Score de 0.69. Y por último, siendo el modelo con peores métricas, se encuentra el que se desarrollo con el algoritmo de k-NN, con una Exactitud de 0.83 y un F1 Score de 0.67. 
+
 </p>
 
 <p align="justify">

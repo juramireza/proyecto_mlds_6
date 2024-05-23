@@ -1,6 +1,8 @@
-# Reporte del otros modelos desarrollados
+# Reporte de modelos desarrollados
 
-Este documento contiene los resultados del otros modelos.
+<p align="justify">
+Este documento contiene los resultados de los mejores modelos que se construyeron utilizando distintos tipos de algoritmos.
+</p>
 
 # Variables y observaciones
 
@@ -13,31 +15,61 @@ Las varibles numéricas se escalaron con *StandardScaler* de *Sklearn*. La varia
 
 ## Variable objetivo
 
-La etiqueta del problema es la varible binaria "infected".
+<p align="justify">
+La etiqueta del problema es la varible binaria "infected", que es la variable dependiente y la que indica si un paciente tiene el virus del VIH (SIDA)
+</p>
 
 ## Cantidad de observaciones
-El archivo original contiene 2139 entradas. Se realizó la separación en datos de entranamiento y datos de prueba dejando un 25% del total de datos para prueba. Ya que la etiqueta está desbalanceada, se empleó *SMOTE* para que los datos en el conjunto de prueba quedasen balanceados. De esta manera hay 2414 observaciones para entrenamiento y 535 para prueba.
 
-# Modelos
+<p align="justify">
+El archivo original contiene 2139 entradas. Se realizó la separación en datos de entranamiento y datos de prueba dejando un 25% del total de datos para prueba. Ya que la etiqueta está desbalanceada, se empleó *SMOTE* para que los datos en el conjunto de prueba quedasen distribuidos de forma equitativa. De esta manera hay 2414 observaciones para entrenamiento y 535 para prueba.
+</p>
+
+# Algoritmos utilizados en la construcción de los modelos
+
+##Regresión logística
+
+<p align="justify">
+La regresión logística es un algoritmo paramétrico que clasifica datos binarios convirtiendo una combinación lineal de características en probabilidades usando la función sigmoide. Predice la clase basándose en si la probabilidad supera un umbral (típicamente 0.5)
+</p>
+
 
 ## Bosque aleatorio
 
+<p align="justify">
 El clasificador de bosque aleatorio consiste en una colección de árboles de decisión entrenados en muestras distintas que realizan una "votación" para elegir la clasificación más favorable. La cantidad de árboles que se entrenan se define con el parámetro ```n_estimators```, y se pueden configurar los parámetros de estos árboles, como por ejemplo la cantidad máxima de características a considerar con ```max_features```. (Tomado del material de estudio de módulo 2).
+</p>
 
+##Máquinas de soporte vectorial
+
+<p align="justify">
+Las máquinas de soporte vectorial (SVM) son algoritmos de clasificación que encuentran el hiperplano que mejor separa las clases de datos en un espacio de características. 
+</p>
+
+## k-NN (k-Nearest Neighbors) 
+<p align="justify">
+El algoritmo k-NN (k-Nearest Neighbors) clasifica una observación basándose en las clases de sus k vecinos más cercanos en el espacio de características.
+</p>
 ### Métricas de evaluación
 
+<p align="justify">
 En los modelos empleados se observó el comportamiento de dos métricas apropiadas para clasificación binaria:
-- Exactitud: mide cuantitativamente cuantas predicciones fueron correctas.
-- F1: es el promedio ponderado entre la precisión y el *recall*.
-- - Precisión: es la habilidad del clasificador de no clasificar una muestra como positiva cuando es negativa.
-  - *Recall*: es la capacidad del clasificador de encontrar todas las muestras positivas.
+
+</p>
+
+- *Exactitud*: mide cuantitativamente cuantas predicciones fueron correctas.
+- *Recall*: Proporción de verdaderos positivos entre los positivos reales.
+- *Precisión*: es la habilidad del clasificador de no clasificar una muestra como positiva cuando es negativa.
+- *F1 score*: El F1 score es la media armónica de la precisión y el recall. Un F1 score alto indica un buen equilibrio entre precisión y exhaustividad.
 
 ### Resultados de evaluación
 
-| Tipo de modelo | Mejores hiperparámetros | Exactitud (*Accuracy*) | Métrica F1 | 
+| Tipo de algoritmo | Mejores hiperparámetros | Exactitud (*Accuracy*) | Métrica F1 | 
 | --- | --- | --- | --- | 
 | Regresión logística | 'C': 0.08011117642517443, 'solver': 'lbfgs' | 0.8448598130841122 | 0.6937269372693727 |
 | Bosque aleatorio | 'n_estimators': 73, 'criterion': 'gini', 'max_depth': 50, 'min_samples_split': 20, 'min_samples_leaf': 2, 'min_weight_fraction_leaf': 2.5214105645479093e-05, 'ccp_alpha': 1.8151142421551003e-05, 'max_samples': 0.959999447846922 | 0.8710280373831776 | 0.7544483985765125 |
+| SVM | 'C': 2.7807647750443065,'break_ties': False,'cache_size': 200,'class_weight': None,'coef0': 0.0,'decision_function_shape': 'ovr','degree': 3,'gamma': 'scale','kernel': 'rbf', 'max_iter': -1, 'probability': False,'random_state': None,'shrinking': True, 'tol': 0.001,'verbose': False |  0.8635514018691589 | 0.7224334600760456 |
+| k-NN |'algorithm': 'auto','leaf_size': 80,'metric': 'minkowski','metric_params': None 'n_jobs': None,'n_neighbors': 20,'p': 1,'weights': 'uniform'| 0.8317757009345794 | 0.6785714285714285 |
 
 ## Análisis de los resultados
 
@@ -50,3 +82,5 @@ Se pueden desarrollar otros modelos para mejorar el resultado acá encontrado.
 ## Referencias
 
 [Bosque aleatrorio en SciKitLearn](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
+
+

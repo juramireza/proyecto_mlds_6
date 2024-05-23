@@ -64,16 +64,26 @@ En los modelos empleados se observó el comportamiento de dos métricas apropiad
 
 ### Resultados de evaluación
 
-| Tipo de algoritmo | Mejores hiperparámetros | Exactitud (*Accuracy*) | Métrica F1 | 
+| Tipo de algoritmo | Mejores hiperparámetros | Exactitud (*Accuracy*) | F1 Score| 
 | --- | --- | --- | --- | 
 | Regresión logística | 'C': 0.08011117642517443, 'solver': 'lbfgs' | 0.8448598130841122 | 0.6937269372693727 |
-| Bosque aleatorio | 'n_estimators': 73, 'criterion': 'gini', 'max_depth': 50, 'min_samples_split': 20, 'min_samples_leaf': 2, 'min_weight_fraction_leaf': 2.5214105645479093e-05, 'ccp_alpha': 1.8151142421551003e-05, 'max_samples': 0.959999447846922 | 0.8710280373831776 | 0.7544483985765125 |
+| Bosques aleatorios | 'n_estimators': 73, 'criterion': 'gini', 'max_depth': 50, 'min_samples_split': 20, 'min_samples_leaf': 2, 'min_weight_fraction_leaf': 2.5214105645479093e-05, 'ccp_alpha': 1.8151142421551003e-05, 'max_samples': 0.959999447846922 | 0.8710280373831776 | 0.7544483985765125 |
 | SVM | 'C': 2.7807647750443065,'break_ties': False,'cache_size': 200,'class_weight': None,'coef0': 0.0,'decision_function_shape': 'ovr','degree': 3,'gamma': 'scale','kernel': 'rbf', 'max_iter': -1, 'probability': False,'random_state': None,'shrinking': True, 'tol': 0.001,'verbose': False |  0.8635514018691589 | 0.7224334600760456 |
 | k-NN |'algorithm': 'auto','leaf_size': 80,'metric': 'minkowski','metric_params': None 'n_jobs': None,'n_neighbors': 20,'p': 1,'weights': 'uniform'| 0.8317757009345794 | 0.6785714285714285 |
 
 ## Análisis de los resultados
 
-Los resultados del bosque aleatorio mejoran los resultados de la regresión logística, pero se puede mejorar todavía más
+<p align="justify">
+Con el algoritmo de bosques aleatorios, se consiguen los mejores resultados. Ya que, con este se consiguen los valores más altos tanto de *Exactitud (0.87)* como de *F1 Score (0.75). Esto, significa que es el modelo, que más observaciones ha conseguido clasificar correctamente y el que logra un mejor balance entre precisión y exhaustividad.
+</p>
+
+<p align="justify">
+El algoritmo de máquinas de soporte vectorial, arroja resultados inferiores que el de Bosques Alatorios, con una *Exactitud de 0.86 y un *F1 Score de 0.72*. Pero, con estas métricas tiene mejor desempeño, que los modelos obtenidos con los algoritmos de k-NN y Regresión logística. 
+
+<p align="justify">
+Por último, el modelo construído con el algoritmo de regresión logística registro una *Exactitud de 0.84* y un *F1 Score de 0.69*, métricas inferiores a las obtenidas tanto con Bosques aleatorios como con SVM, pero superiores a las que se lograrron al aplicar el algoritmo de k-NN. Es decir, el modelo con las peores métricas fue el elaborado con el algoritmo de k-NN, con una *Exactitud de 0.83* y un *F1 Score de 0.67*
+</p>
+
 
 ## Conclusiones
 

@@ -52,6 +52,11 @@ Las máquinas de soporte vectorial (SVM) son algoritmos de clasificación que en
 El algoritmo k-NN (k-Nearest Neighbors) clasifica una observación basándose en las clases de sus k vecinos más cercanos en el espacio de características.
 </p>
 
+## Redes neuronales artificiales (ANN, *artificial neural network*)
+<p align="justify">
+Una neurona artificial es un modelo matemático simplificado de la neurona biológica. En una red de neuronas artificiales cada neurona recibe entradas de otras neuronas o por fuentes externas y computa una salida.
+</p>
+
 ## Métricas de evaluación
 
 <p align="justify">
@@ -72,6 +77,7 @@ En los modelos empleados se observó el comportamiento de dos métricas apropiad
 | Bosques aleatorios | 'n_estimators': 73, 'criterion': 'gini', 'max_depth': 50, 'min_samples_split': 20, 'min_samples_leaf': 2, 'min_weight_fraction_leaf': 2.5214105645479093e-05, 'ccp_alpha': 1.8151142421551003e-05, 'max_samples': 0.959999447846922 | 0.8710280373831776 | 0.7544483985765125 |
 | SVM | 'C': 2.7807647750443065,'break_ties': False,'cache_size': 200,'class_weight': None,'coef0': 0.0,'decision_function_shape': 'ovr','degree': 3,'gamma': 'scale','kernel': 'rbf', 'max_iter': -1, 'probability': False,'random_state': None,'shrinking': True, 'tol': 0.001,'verbose': False |  0.8635514018691589 | 0.7224334600760456 |
 | k-NN |'algorithm': 'auto','leaf_size': 80,'metric': 'minkowski','metric_params': None 'n_jobs': None,'n_neighbors': 20,'p': 1,'weights': 'uniform'| 0.8317757009345794 | 0.6785714285714285 |
+| ANN | 'n_layers': 1, 'n_nodes': 86, 'dp': 0.3048343482717873, 'activation': 'relu6', 'learning_rate': 0.00018564900166494438 | 0.8766355 | 0.7421875 |
 
 ## Análisis de los resultados
 
@@ -83,7 +89,9 @@ Con el algoritmo de bosques aleatorios, se consiguen los mejores resultados. Ya 
 El algoritmo de máquinas de soporte vectorial, arroja resultados inferiores que el de Bosques Alatorios, con una Exactitud de 0.86 y un F1 Score de 0.72. Pero, con estas métricas tiene mejor desempeño, que los modelos obtenidos con los algoritmos de k-NN y Regresión logística. 
 
 <p align="justify">
-Por último, el modelo construído con el algoritmo de regresión logística registro una Exactitud de 0.84 y un F1 Score de 0.69, métricas inferiores a las obtenidas tanto con Bosques aleatorios como con SVM, pero superiores a las que se lograron al aplicar el algoritmo de k-NN. Es decir, el modelo con las peores métricas fue este, con una Exactitud de 0.83 y un F1 Score de 0.67.
+El modelo construído con el algoritmo de regresión logística registro una Exactitud de 0.84 y un F1 Score de 0.69, métricas inferiores a las obtenidas tanto con Bosques aleatorios como con SVM, pero superiores a las que se lograron al aplicar el algoritmo de k-NN. Es decir, el modelo con las peores métricas fue este, con una Exactitud de 0.83 y un F1 Score de 0.67.
+
+Por último, la red neuronal artificial desarrollada da resultados muy parecidos al modelo de bosque aleatorio. La exactitud es ligeramente superior, por 5 milésimas, pero la métrica F1 es una centésima inferior. En comparación de la red neuronal y el bosque aleatorio desde la matriz de confusión, a la red neuronal le va mejor prediciendo no infectados (374 contra 360), pero le va peor prediciendo infectados (95 contra 106). Eso explica la pequeña diferencia en las métricas
 </p>
 
 
@@ -91,7 +99,7 @@ Por último, el modelo construído con el algoritmo de regresión logística reg
 
 <p align="justify">
 
-- Con el algoritmo de bosques aleatorios, se consiguen los mejores resultados. Ya que, con este se consiguen los valores más altos tanto de Exactitud (0.87) como de F1 Score (0.75), después se tiene el modelo construido con el algoritmo de SVM, con una Exactitud de 0.86 y un F1 Score de 0.72, luego esta el modelo elaborado con el algoritmo de regresión logística con una Exactitud de 0.84 y un F1 Score de 0.69. Y por último, siendo el modelo con peores métricas, se encuentra el que se desarrollo con el algoritmo de k-NN, con una Exactitud de 0.83 y un F1 Score de 0.67. 
+- Con el algoritmo de bosques aleatorios, se consiguen los mejores resultados. Ya que, con este se consiguen los valores más altos tanto de Exactitud (0.87) como de F1 Score (0.75). La red neuronal mejora levemente la exactitud, pero tiene un F1 ligeramente más bajo. Después se tiene el modelo construido con el algoritmo de SVM, con una Exactitud de 0.86 y un F1 Score de 0.72, luego esta el modelo elaborado con el algoritmo de regresión logística con una Exactitud de 0.84 y un F1 Score de 0.69. Y por último, siendo el modelo con peores métricas, se encuentra el que se desarrollo con el algoritmo de k-NN, con una Exactitud de 0.83 y un F1 Score de 0.67. 
 </p>
 
 ## Recomendaciones 
@@ -109,7 +117,6 @@ A continuación, se presentan algunas sugerencias, con el fin de construir un mo
 [Bosque aleatrorio en SciKitLearn](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html)
 
 [Regresión logística en SciKitLearn](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html).
-
 
 [SVM](https://scikit-learn.org/stable/modules/svm.html).
 

@@ -57,6 +57,16 @@ El algoritmo k-NN (k-Nearest Neighbors) clasifica una observación basándose en
 Una neurona artificial es un modelo matemático simplificado de la neurona biológica. En una red de neuronas artificiales cada neurona recibe entradas de otras neuronas o por fuentes externas y computa una salida.
 </p>
 
+## Arboles de descisión 
+<p align="justify">
+Los árboles de decisión en scikit-learn son modelos de aprendizaje supervisado que se utilizan tanto para clasificación como para regresión. Funcionan creando una estructura en forma de árbol donde cada nodo interno representa una prueba en una característica del conjunto de datos, cada rama representa el resultado de la prueba, y cada nodo hoja representa una predicción. El árbol se construye seleccionando iterativamente características y umbrales que dividen los datos de manera óptima según una medida de pureza, como la ganancia de información o el índice Gini. Los principales hiperparámetros incluyen max_depth (profundidad máxima del árbol), min_samples_split (número mínimo de muestras para dividir un nodo), min_samples_leaf (número mínimo de muestras en una hoja), max_features (número máximo de características consideradas para dividir un nodo), criterion (función para medir la calidad de una división) y splitter (estrategia para elegir la división en cada nodo).
+</p>
+
+## Gradient Boosting Machine (GBM)
+<p align="justify">
+Los modelos Gradient Boosting Machine (GBM) en scikit-learn son algoritmos de aprendizaje supervisado utilizados para tareas de clasificación y regresión, que construyen un modelo predictivo potente a partir de la combinación secuencial de varios modelos débiles, generalmente árboles de decisión. Cada árbol sucesivo se ajusta para corregir los errores residuales del conjunto anterior, optimizando una función de pérdida mediante el descenso de gradiente. Los principales hiperparámetros de GBM incluyen n_estimators (número de árboles en la secuencia), learning_rate (tasa de aprendizaje que reduce la contribución de cada árbol), max_depth (profundidad máxima de cada árbol individual), min_samples_split (mínimo de muestras necesarias para dividir un nodo), min_samples_leaf (mínimo de muestras en una hoja), y subsample (fracción de muestras utilizadas para entrenar cada árbol). 
+</p>
+
 ## Métricas de evaluación
 
 <p align="justify">
@@ -78,6 +88,8 @@ En los modelos empleados se observó el comportamiento de dos métricas apropiad
 | SVM | 'C': 2.7807647750443065,'break_ties': False,'cache_size': 200,'class_weight': None,'coef0': 0.0,'decision_function_shape': 'ovr','degree': 3,'gamma': 'scale','kernel': 'rbf', 'max_iter': -1, 'probability': False,'random_state': None,'shrinking': True, 'tol': 0.001,'verbose': False |  0.8635514018691589 | 0.7224334600760456 |
 | k-NN |'algorithm': 'auto','leaf_size': 80,'metric': 'minkowski','metric_params': None 'n_jobs': None,'n_neighbors': 20,'p': 1,'weights': 'uniform'| 0.8317757009345794 | 0.6785714285714285 |
 | ANN | 'n_layers': 1, 'n_nodes': 86, 'dp': 0.3048343482717873, 'activation': 'relu6', 'learning_rate': 0.00018564900166494438 | 0.8766355 | 0.7421875 |
+| GBM | 'subsample': 0.7,  'n_estimators': 100,  'min_samples_split': 5,  'min_samples_leaf': 5,  'max_depth': 6,  'learning_rate': 0.1 | 0.88| 0.71 |
+|DT | 'splitter': 'random',  'min_samples_split': 2,  'min_samples_leaf': 20,  'max_features': None,  'max_depth': 9,  'criterion': 'gini | 0.87| 0.69 |
 
 ## Análisis de los resultados
 
@@ -90,6 +102,12 @@ El algoritmo de máquinas de soporte vectorial, arroja resultados inferiores que
 
 <p align="justify">
 El modelo construído con el algoritmo de regresión logística registro una Exactitud de 0.84 y un F1 Score de 0.69, métricas inferiores a las obtenidas tanto con Bosques aleatorios como con SVM, pero superiores a las que se lograron al aplicar el algoritmo de k-NN. Es decir, el modelo con las peores métricas fue este, con una Exactitud de 0.83 y un F1 Score de 0.67.
+
+Con Arboles de descision se alcanzo un Accuracy de 0.87% coon un F1 score de 0.69. Aunque el modelo tiene una alta exactitud, su F1 de indica que tiene problemas para equilibrar la precisión y la exhaustividad, sugiriendo posibles desbalances en las clases o problemas con falsos positivos/negativos. Es posible ajustar el umbral de decisión y considerar técnicas para balancear las clases, como el submuestreo, sobremuestreo o el uso de SMOTE.
+
+Aunque el modelo GBM tiene una alta exactitud de 0.88, la puntuación F1 de 0.71 indica que podría estar enfrentando problemas de equilibrio entre precisión y exhaustividad, probablemente debido a un desbalance de clases o errores en falsos positivos/negativos. Para mejorar el rendimiento, se recomienda ajustar el umbral de decisión y aplicar técnicas de balanceo de clases, como submuestreo, sobremuestreo o el uso de SMOTE, para asegurar que el modelo maneje de manera más efectiva ambas clases.
+
+La búsqueda de hiperparámetros utilizando Randomized Search mejoró significativamente el rendimiento de los modelos, elevando la exactitud a 0.88 y la puntuación F1 a 0.71 al GBM. Esto demuestra que ajustar adecuadamente los hiperparámetros puede equilibrar mejor la precisión y la exhaustividad, optimizando la capacidad del modelo para manejar el desbalance de clases y reducir errores en falsos positivos y negativos.
 
 Por último, la red neuronal artificial desarrollada da resultados muy parecidos al modelo de bosque aleatorio. La exactitud es ligeramente superior, por 5 milésimas, pero la métrica F1 es una centésima inferior. En comparación de la red neuronal y el bosque aleatorio desde la matriz de confusión, a la red neuronal le va mejor prediciendo no infectados (374 contra 360), pero le va peor prediciendo infectados (95 contra 106). Eso explica la pequeña diferencia en las métricas
 </p>
@@ -110,7 +128,10 @@ A continuación, se presentan algunas sugerencias, con el fin de construir un mo
 - Revisar aquellas observaciones que están siendo mal clasificadas e intentar comprender esto porque sucede. 
 - Iterar en el proceso completo, es decir revisar el análisis exploratorio y ver que variables valdría la pena incluir y que variables, es mejor excluir. 
 - En caso de ser viable, conseguir más observaciones con el fin de aumentar el conjunto de datos. 
-- Si existe la posibilidad, explorar nuevas variables. 
+- Si existe la posibilidad, explorar nuevas variables.
+- Ajustar el umbral de decisión y aplicar técnicas de balanceo de clases, como submuestreo, sobremuestreo o el uso de SMOTE, para asegurar que el modelo maneje de manera más efectiva ambas clases.
+- evaluar una tecnica diferente de preoprocesamiento
+- usar PCA para mejorar los algoritmos usados
 
 ## Referencias
 

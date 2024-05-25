@@ -52,7 +52,7 @@ Se construyó un modelo de clasificación binaria y para su elaboración se sigu
 
 A continuación, se presenta la matriz de confusión del mejor modelo obtenido, que fue el que se logró, con el algoritmo de bosques aleatorios:
 
-![Texto alternativo](https://github.com/juramireza/proyecto_mlds_6/blob/master/mlruns/svm_/5d5755ad623048c192007bad0d5fe420/artifacts/confusion_matrix/confusion_matrix.png)
+![Texto alternativo](https://github.com/juramireza/proyecto_mlds_6/blob/master/mlruns/ran_for/2a6b1b0fa28c4285a52932f421cdd351/artifacts/confusion_matrix/confusion_matrix.png)
 
 De la matriz de consfusión es importante tener en cuenta lo siguiente: 
 

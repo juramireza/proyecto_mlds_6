@@ -46,11 +46,15 @@
 | --- | --- | 
 | GITHUB | En esta variable se guarda la ruta del repositorio de Github y el token para conectar Google Colab con Github |
 | NGROK_TOKEN | En esta variable se guarda el token de pyngrok, con el fin de hacer la conexión entre Google Colab y la herramienta de mlflow |
-| MLFLOW_TRACKING_URI | En esta variable se guarda la ruta http://localhost:5000 |
+| MLFLOW_TRACKING_URI | En esta variable se guarda la ruta http://localhost:5000, para especificar la url del servidor de seguimiento de mlflow |
 
 ## Documentación del despliegue
 
-- **Instrucciones de instalación:** (instrucciones detalladas para instalar el modelo en la plataforma de despliegue)
+- **Instrucciones de instalación:**
+
+1. Cargar el modelo desde el archivo 
+
+(instrucciones detalladas para instalar el modelo en la plataforma de despliegue)
 - **Instrucciones de configuración:** (instrucciones detalladas para configurar el modelo en la plataforma de despliegue)
 - **Instrucciones de uso:** (instrucciones detalladas para utilizar el modelo en la plataforma de despliegue)
 - **Instrucciones de mantenimiento:** (instrucciones detalladas para mantener el modelo en la plataforma de despliegue)

@@ -29,7 +29,11 @@
     * También, es posible pensar en la viavilidad de establecer procesos de enmascaramiento de datos o encriptación de estos, especifícamente para los datos referentes a la identificación del paciente, como número de cédula o sus nombres. Con el objetivo, de proteger la identidad del paciente y que solamente, determinados perfiles con ciertos privilegios, tengan la posibilidad de acceder a esta información.   
     </p>  
 
-- **Diagrama de arquitectura:** (imagen que muestra la arquitectura del sistema que se utilizará para desplegar el modelo)
+- **Diagrama de arquitectura:**
+
+![Arquitectura para desplegar modelos con mlflow](https://github.com/juramireza/proyecto_mlds_6/blob/master/docs/deployment/Arquitectura_Despliegue.png)
+
+ (imagen que muestra la arquitectura del sistema que se utilizará para desplegar el modelo)
 
 ## Código de despliegue
 

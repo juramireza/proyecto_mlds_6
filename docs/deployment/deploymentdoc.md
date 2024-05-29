@@ -35,12 +35,12 @@
     A continuación, se presenta un diagrama en el que se expone a alto nivel, la arquitectura en la que se muestra a alto nivel como desplegar un modelo haciendo uso de MLflow. Primero, esta Tracking Service es un componente de MLflow, para gestionar el ciclo de vida de los proyectos de machine learning (ML). El objetivo principal del servicio de seguimiento es proporcionar una forma de registrar y consultar experimentos, facilitando la reproducibilidad, comparación y gestión de los resultados de los modelos de ML
     </p> 
 
-<p align="justify">
-Después, esta el componente de Model Registry proporciona una forma estructurada de registrar, organizar, revisar y desplegar modelos.
-</p> 
+    <p align="justify">
+    Después, esta el componente de Model Registry proporciona una forma estructurada de registrar, organizar, revisar y desplegar modelos.
+    </p> 
 
-<p align="justify">
-Y por último se tiene la parte, de consumo del modelo, mediante una API REST.
+    <p align="justify">
+    Y por último se tiene la parte, de consumo del modelo, mediante una API REST.
 
 </p> 
 

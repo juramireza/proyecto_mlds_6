@@ -73,10 +73,15 @@
 
 2. Registrar el modelo en la plataforma de MLflow, para que pueda ser consumido por los usuarios y hacer predicciones.
 
-Los pasos, descritos anteriormente, se aprecian en la siguiente url, https://github.com/juramireza/proyecto_mlds_6/blob/master/scripts/training/final_model_mlflow.ipynb en los apartados nombrados "Construcción del modelo y registro en mlflow" y "Despliegue del modelo con mlflow"
+    Los pasos, descritos anteriormente, se aprecian en la siguiente url, https://github.com/juramireza/proyecto_mlds_6/blob/master/scripts/training/final_model_mlflow.ipynb en los apartados nombrados "Construcción del modelo y registro en mlflow" y "Despliegue del modelo con mlflow"
 
-- **Instrucciones de configuración:** (instrucciones detalladas para configurar el modelo en la plataforma de despliegue)
 - **Instrucciones de uso:** 
 
-(instrucciones detalladas para utilizar el modelo en la plataforma de despliegue)
-- **Instrucciones de mantenimiento:** (instrucciones detalladas para mantener el modelo en la plataforma de despliegue)
+    <p align="justify">
+    El modelo se consume a través de la API REST que ofrece mlflow, en la que se registró el mejor modelo. Y se le envian, los datos en formato .json al modelo y este devuelve, las predicciones, es decir, indica si el o los pacientes tienen VIH (SIDA) o no. Y en la siguiente ruta, https://github.com/juramireza/proyecto_mlds_6/blob/master/scripts/training/final_model_mlflow.ipynb en la sección, "Consumo del modelo", se aprecia el paso a paso descrito en este parráfo. 
+    </p>  
+
+
+- **Instrucciones de mantenimiento:** 
+
+(instrucciones detalladas para mantener el modelo en la plataforma de despliegue)

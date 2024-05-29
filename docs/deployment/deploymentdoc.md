@@ -12,7 +12,6 @@
     * Entorno de python: https://github.com/juramireza/proyecto_mlds_6/blob/master/mlruns/final_model/f07e5539accd45dea6c796a24f65dd04/artifacts/final_model/python_env.yaml
    
 
-  
     * Bibliotecas: https://github.com/juramireza/proyecto_mlds_6/blob/master/mlruns/final_model/f07e5539accd45dea6c796a24f65dd04/artifacts/final_model/requirements.txt. Para mayor detallar de los requerimientos con relación al entorno de python y las bibliotecas necesarias para realizar el despliegue del modelo, es viable consultarlos en  https://github.com/juramireza/proyecto_mlds_6/tree/master/mlruns/final_model/f07e5539accd45dea6c796a24f65dd04/artifacts/final_model  
  
     
@@ -45,7 +44,6 @@
 </p> 
 
 
-
 ![Arquitectura para desplegar modelos con mlflow](https://github.com/juramireza/proyecto_mlds_6/blob/master/docs/deployment/Arquitectura_Despliegue.png)
 
 
@@ -71,9 +69,14 @@
 
 - **Instrucciones de instalación:**
 
-1. Cargar el modelo desde el archivo 
+1. Construir el modelo con los mejores hiperparámetros, que se obtuvieron con el modelo de optuna y guardar el experimento en mlflow. 
 
-(instrucciones detalladas para instalar el modelo en la plataforma de despliegue)
+2. Registrar el modelo en la plataforma de MLflow, para que pueda ser consumido por los usuarios y hacer predicciones.
+
+Los pasos, descritos anteriormente, se aprecian en la siguiente url, https://github.com/juramireza/proyecto_mlds_6/blob/master/scripts/training/final_model_mlflow.ipynb en los apartados nombrados "Construcción del modelo y registro en mlflow" y "Despliegue del modelo con mlflow"
+
 - **Instrucciones de configuración:** (instrucciones detalladas para configurar el modelo en la plataforma de despliegue)
-- **Instrucciones de uso:** (instrucciones detalladas para utilizar el modelo en la plataforma de despliegue)
+- **Instrucciones de uso:** 
+
+(instrucciones detalladas para utilizar el modelo en la plataforma de despliegue)
 - **Instrucciones de mantenimiento:** (instrucciones detalladas para mantener el modelo en la plataforma de despliegue)

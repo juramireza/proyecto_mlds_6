@@ -81,11 +81,8 @@
     El modelo se consume a través de la API REST que ofrece mlflow, en la que se registró el mejor modelo. Y se le envian, los datos en formato .json al modelo y este devuelve, las predicciones, es decir, indica si el o los pacientes tienen VIH (SIDA) o no. Y en la siguiente ruta, https://github.com/juramireza/proyecto_mlds_6/blob/master/scripts/training/final_model_mlflow.ipynb en la sección, "Consumo del modelo", se aprecia el paso a paso descrito en este parráfo. 
     </p>  
 
-
 - **Instrucciones de mantenimiento:** 
 
     <p align="justify">
-    
     Para el mantenimiento del modelo se deben monnitorear los resultados que proporcine el modelo y las siguientes versiones que se construyan, haciendo uso de las pruebas A/B. Adémas, también se debe revisar y medir los resultados del modelo, con el objetivo de detectar la presencia de Drifts.
-        
     </p> 

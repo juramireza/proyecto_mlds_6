@@ -36,9 +36,17 @@
 - **Archivo principal:** En esta url https://github.com/juramireza/proyecto_mlds_6/blob/master/scripts/training/final_model_mlflow.ipynb, se encuentra el código, empleado para realizar el despligue del modelo final_model que se construyó con el algoritmo de bosques aleatorios. 
 - **Rutas de acceso a los archivos:** Se requieren de las siguientes rutas para realizar el despliegue del modelo:
 
- * Ruta del repositorio en github, que esta ciendo utilizado para versionar el código:https://github.com/juramireza/proyecto_mlds_6/blob/master/scripts/training/final_model_mlflow.ipynb    
+ * Ruta del repositorio en github, que esta siendo utilizado para versionar el código:https://github.com/juramireza/proyecto_mlds_6   
 
-- **Variables de entorno:** (lista de variables de entorno necesarias para el despliegue)
+ * Ruta en la que se encuetra el código para realizar el código del despliegue: https://github.com/juramireza/proyecto_mlds_6/blob/master/scripts/training/final_model_mlflow.ipynb 
+
+- **Variables de entorno:** En la siguiente tabla se enuncian las variables de entorno utilizadas, para el despliegu y el objetivo de cada una de estas.
+
+| Nombre de la variable | Objetivo |
+| --- | --- | 
+| GITHUB | En esta variable se guarda la ruta del repositorio de Github y el token para conectar Google Colab con Github |
+| NGROK_TOKEN | En esta variable se guarda el token de pyngrok, con el fin de hacer la conexión entre Google Colab y la herramienta de mlflow |
+| MLFLOW_TRACKING_URI | En esta variable se guarda la ruta http://localhost:5000 |
 
 ## Documentación del despliegue
 

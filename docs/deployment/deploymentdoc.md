@@ -73,7 +73,7 @@
 
 2. Registrar el modelo en la plataforma de MLflow, para que pueda ser consumido por los usuarios y hacer predicciones.
 
-    Los pasos, descritos anteriormente, se aprecian en la siguiente url, https://github.com/juramireza/proyecto_mlds_6/blob/master/scripts/training/final_model_mlflow.ipynb en los apartados nombrados "Construcción del modelo y registro en mlflow" y "Despliegue del modelo con mlflow"
+    Los pasos, descritos anteriormente, se aprecian en los apartados nombrados "Construcción del modelo y registro en mlflow" y "Despliegue del modelo con mlflow", como se aprecia en la url: https://github.com/juramireza/proyecto_mlds_6/blob/master/scripts/training/final_model_mlflow.ipynb 
 
 - **Instrucciones de uso:** 
 
@@ -84,4 +84,8 @@
 
 - **Instrucciones de mantenimiento:** 
 
-(instrucciones detalladas para mantener el modelo en la plataforma de despliegue)
+    <p align="justify">
+    
+    Para el mantenimiento del modelo se deben monnitorear los resultados que proporcine el modelo y las siguientes versiones que se construyan, haciendo uso de las pruebas A/B. Adémas, también se debe revisar y medir los resultados del modelo, con el objetivo de detectar la presencia de Drifts.
+        
+    </p> 

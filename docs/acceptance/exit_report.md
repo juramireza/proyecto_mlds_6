@@ -164,12 +164,22 @@ evaluar los modelos debe ser la sensibilidad, aunque se pierda presicion.
 
 </p>
 
+
 <p align="justify">
 
-- Es viable utilizar el modelo construído, como un sistema de priorización, es decir, las entidades cuidadoras de salud, pueden estar corriendo este modelo, sobre los pacientes de los que tengan la información clínica y sociodemográfica, con el fin de que si alguien reporta una alta probabilidad de tener el virus del SIDA (VIH), se le hagan otros estudios con prontitud, para validar si efectivamente tienen la enfermedad o no. En conclusión, es viable usar el modelo con una herramienta de priorización y salud preventiva, más no puede ser empleada como una herramienta que diagnóstique la enfermadad y sea la última palabra. 
+- Como producto final, se desplegó el modelo construído con el algoritmo de bosques aleatorios en el API de MLflow, para que sea consumido por distintos usuarios. Y predecir, si un paciente padece de VIH (SIDA) o no. 
 
 </p>
-- Descripción de los resultados y su relevancia para el negocio.
+
+
+## Recomendaciones
+A continuación, se presentan algunas sugerencias, con el fin de construir un modelo que consiga mejores resultados: 
+
+- Experimentar con algoritmos diferentes a los utilizados en este proyecto
+- Revisar aquellas observaciones que están siendo mal clasificadas e intentar comprender esto porque sucede. 
+- Iterar en el proceso completo, es decir revisar el análisis exploratorio y ver que variables valdría la pena incluir y que variables, es mejor excluir. 
+- En caso de ser viable, conseguir más observaciones con el fin de aumentar el conjunto de datos. 
+- Si existe la posibilidad, explorar nuevas variables. 
 
 ## Lecciones aprendidas
 
@@ -179,15 +189,12 @@ evaluar los modelos debe ser la sensibilidad, aunque se pierda presicion.
 
 ## Impacto del proyecto
 
-- Descripción del impacto del modelo en el negocio o en la industria.
-- Identificación de las áreas de mejora y oportunidades de desarrollo futuras.
+<p align="justify">
 
-## Conclusiones
+Es viable utilizar el modelo construído, como un sistema de priorización, es decir, las entidades cuidadoras de salud, pueden estar corriendo este modelo, sobre los pacientes de los que tengan la información clínica y sociodemográfica, con el fin de que si alguien reporta una alta probabilidad de tener el virus del SIDA (VIH), se le hagan otros estudios con prontitud, para validar si efectivamente tienen la enfermedad o no. En conclusión, es viable usar el modelo con una herramienta de priorización y salud preventiva, más no puede ser empleada como una herramienta que diagnóstique la enfermadad y sea la última palabra.
 
-- Resumen de los resultados y principales logros del proyecto.
-- Conclusiones finales y recomendaciones para futuros proyectos.
+</p>
 
 ## Agradecimientos
 
-- Agradecimientos al equipo de trabajo y a los colaboradores que hicieron posible este proyecto.
-- Agradecimientos especiales a los patrocinadores y financiadores del proyecto.
+- Agradecimientos al equipo del diplomado en ciencia de datos y machine learning avanzado de la Universidad Nacional de Colombia. 

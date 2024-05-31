@@ -183,9 +183,7 @@ A continuación, se presentan algunas sugerencias, con el fin de construir un mo
 
 ## Lecciones aprendidas
 
-- Identificación de los principales desafíos y obstáculos encontrados durante el proyecto.
-- Lecciones aprendidas en relación al manejo de los datos, el modelamiento y la implementación del modelo.
-- Recomendaciones para futuros proyectos de machine learning.
+- El conjunto de datos, estaba desbalanceado, ya que, se tienen mayor cantidad de observaciones de personas sanas, que de personas enfermas. Entonces, esto es posible que sesgue el modelamiento, entonces, se tuvo que aplicar técnicas de balanceo de datos. 
 
 ## Impacto del proyecto
 

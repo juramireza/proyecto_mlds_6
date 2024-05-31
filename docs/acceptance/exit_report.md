@@ -183,7 +183,13 @@ A continuación, se presentan algunas sugerencias, con el fin de construir un mo
 
 ## Lecciones aprendidas
 
-- El conjunto de datos, estaba desbalanceado, ya que, se tienen mayor cantidad de observaciones de personas sanas, que de personas enfermas. Entonces, esto es posible que sesgue el modelamiento, entonces, se tuvo que aplicar técnicas de balanceo de datos. 
+<p align="justify">
+- El conjunto de datos, estaba desbalanceado, ya que, se tenían mayor cantidad de observaciones de personas sanas, que de personas enfermas. Entonces, esto es posible que sesgue el modelamiento, entonces, se tuvo que aplicar técnicas de balanceo de datos. 
+</p>
+
+<p align="justify">
+- El aplicar algoritmos de optimización como optuna, permite determinar con precisión y velocidad, los hiperparámetros, con los que se consigue el mejor modelo. 
+</p>
 
 ## Impacto del proyecto
 
